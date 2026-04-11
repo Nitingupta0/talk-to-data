@@ -1,0 +1,17 @@
+month,region,product,revenue,units_sold,ad_spend
+Jan,North,Product A,45000,300,5000
+Jan,South,Product B,32000,210,4000
+Jan,East,Product A,28000,180,3500
+Jan,West,Product C,51000,340,6000
+Feb,North,Product A,41000,270,5000
+Feb,South,Product B,29000,190,4000
+Feb,East,Product A,25000,160,3500
+Feb,West,Product C,48000,310,6000
+Mar,North,Product A,47000,310,5500
+Mar,South,Product B,35000,230,4500
+Mar,East,Product A,31000,200,4000
+Mar,West,Product C,54000,360,6500
+Apr,North,Product A,39000,260,4500
+Apr,South,Product B,27000,175,3500
+Apr,East,Product A,22000,140,3000
+Apr,West,Product C,44000,290,5500
