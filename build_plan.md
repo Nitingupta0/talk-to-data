@@ -3,26 +3,17 @@ Hi, this is a solid hackathon to go after — right in the wheelhouse of buildin
 Core Idea
 A Python-based self-service data Q&A engine where users upload a CSV/Excel dataset, ask natural language questions, and get trustworthy, cited answers with zero SQL knowledge required.
 Architecture Overview
-User (Streamlit UI)
-    ↓
-  Query Router (intent classifier)
-    ↓
-  ┌──────────────────────────────┐
-  │  Semantic Layer              │
-  │  (metric definitions,        │
-  │   column glossary,           │
-  │   business rules)            │
-  └──────────────────────────────┘
-    ↓
-  SQL/Pandas Code Generator (LLM)
-    ↓
-  Execution Sandbox (safe eval)
-    ↓
-  Result Validator (hallucination guard)
-    ↓
-  Response Formatter (narrative + table/chart + citations)
-    ↓
-  Chat History Manager (session context)
+
+```mermaid
+graph TD
+    A[User (Streamlit UI)] --> B(Query Router - intent classifier);
+    B --> C["Semantic Layer (metric definitions, column glossary, business rules)"];
+    C --> D("SQL/Pandas Code Generator (LLM)");
+    D --> E("Execution Sandbox (safe eval)");
+    E --> F("Result Validator (hallucination guard)");
+    F --> G("Response Formatter (narrative + table/chart + citations)");
+    G --> H("Chat History Manager (session context)");
+```
 Module-by-Module Plan
 1. Data Ingestion & Profiling (src/data/)
 When the user uploads a file, you auto-profile it: column names, types, null counts, unique values, sample rows. This profile becomes the "schema context" you feed the LLM. Store it in session state so every subsequent query has it. Support CSV and Excel to start — easy with pandas.
@@ -82,6 +73,8 @@ pytest
 Packaging
 requirements.txt + .env.example
 Folder Structure
+
+```text
 talk-to-data/
 ├── src/
 │   ├── app.py              # Streamlit entry point
@@ -120,6 +113,8 @@ talk-to-data/
 ├── requirements.txt
 ├── README.md
 └── LICENSE                   # Apache 2.0
+```
+
 Anti-Hallucination Strategy (Summary)
 Risk
 Mitigation
