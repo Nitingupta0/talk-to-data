@@ -6,13 +6,13 @@ Architecture Overview
 
 ```mermaid
 graph TD
-    A[User (Streamlit UI)] --> B(Query Router - intent classifier);
-    B --> C["Semantic Layer (metric definitions, column glossary, business rules)"];
-    C --> D("SQL/Pandas Code Generator (LLM)");
-    D --> E("Execution Sandbox (safe eval)");
-    E --> F("Result Validator (hallucination guard)");
-    F --> G("Response Formatter (narrative + table/chart + citations)");
-    G --> H("Chat History Manager (session context)");
+    A["User (Streamlit UI)"] --> B("Query Router - intent classifier")
+    B --> C["Semantic Layer (metric definitions, column glossary, business rules)"]
+    C --> D("SQL/Pandas Code Generator (LLM)")
+    D --> E("Execution Sandbox (safe eval)")
+    E --> F("Result Validator (hallucination guard)")
+    F --> G("Response Formatter (narrative + table/chart + citations)")
+    G --> H("Chat History Manager (session context)")
 ```
 Module-by-Module Plan
 1. Data Ingestion & Profiling (src/data/)
