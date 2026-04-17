@@ -44,15 +44,17 @@ def generate_narrative(result, query):
         data_str = result.to_string() if isinstance(result, pd.DataFrame) else str(result)
         
         prompt = f"""
-        You are a senior business intelligence analyst. 
+        You are a senior business intelligence analyst.
         User Question: {query}
         Data Result:
         {data_str}
-        
-        Analyze the data above and provide a conversational 1-2 sentence summary. 
-        - Mention the specific winner or highest value if comparing.
-        - Use a professional yet friendly tone.
-        - If the data is empty or unclear, politely explain why.
+
+        Write 1-2 plain English sentences summarising what the data above actually shows.
+        RULES:
+        - Base your summary ONLY on the data result provided. Never speculate or say "would likely".
+        - State specific numbers and category names from the result.
+        - Plain text only — no asterisks, no markdown, no backticks.
+        - Do not offer to do anything further. Just state what the data shows.
         """
         
         response = client.chat.completions.create(
@@ -71,12 +73,8 @@ def format_response(result, query, intent):
     narrative = generate_narrative(result, query)
     table_md = None 
     
-    print(f"DEBUG format_response: type={type(result)}, result=\n{result}")
-    
     if isinstance(result, pd.DataFrame):
-        print(f"DEBUG DataFrame shape={result.shape}, columns={list(result.columns)}")
         chart = generate_chart(result, intent, query) 
-        print(f"DEBUG chart generated={chart is not None}")
         table_md = result.to_markdown(index=False)
         
     elif isinstance(result, pd.Series):

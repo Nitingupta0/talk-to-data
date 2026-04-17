@@ -1,60 +1,54 @@
 # src/engine/templates.py
 
 def get_prompt_template(intent, schema, semantic_layer, user_query):
+
+    columns = schema.get("columns", [])
+    dtypes = schema.get("types", {})
+    samples = schema.get("unique_samples", {})
+
+    # Build a tight, explicit column reference block
+    column_block = "\n".join(
+        f"  - '{col}' ({dtypes.get(col, 'unknown')}) — sample values: {samples.get(col, [])}"
+        for col in columns
+    )
+
     base_prompt = f"""
-    You are a strictly logical pandas data analyst. 
-    Dataset Schema: {schema}
-    Semantic Rules: {semantic_layer}
-    
-    Generate purely Python pandas code to answer: "{user_query}"
-    The dataframe is already loaded as a variable named 'df'.
-    Store the final output in a variable named 'result'.
-    
-    CRITICAL RULES:
-    1. DO NOT import streamlit. DO NOT use st.write() or st.dataframe().
-    2. DO NOT import any external libraries.
-    3. Return ONLY valid Python pandas code. No explanations.
-    4. Do not include markdown formatting like ```python.
+You are a strictly logical pandas data analyst.
 
-    DATE & TIME HANDLING RULES:
-    1. If a column contains month names (e.g., 'Jan', 'Feb', 'March'), DO NOT use pd.to_datetime().
-    2. To sort by month, use a mapping dictionary: 
-       month_map = {{'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4, 'May': 5, 'Jun': 6, 'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12}}
-    3. If the user asks for a trend, sort the dataframe using that mapping before plotting.
-    
-    GENERALIZED PROJECTION RULES:
-    1. IDENTIFY: Find the independent variable (X) and the dependent metric (Y).
-    2. TREND: Calculate the mathematical relationship between X and Y using available data.
-    3. EXTEND: If the user asks for 'more', 'future', or 'predictions':
-    - Identify the 'step' of X (is it increments of 1? Is it a sequence?).
-    - Generate the next N values of X that do not exist in the current 'df'.
-    - Apply the trend to calculate the new Y values.
-    4. UNION: Combine the original 'df' with the new projected rows into 'result'.
-    5. SAFETY: If X is categorical and has no logical sequence, explain that prediction is not possible.
-    """
+AVAILABLE COLUMNS — you may ONLY reference these exact column names:
+{column_block}
 
-    """
-    DYNAMIC CATEGORY HANDLING & SORTING:
-    1. SELF-CONTAINED LOGIC: You operate in a strict, headless sandbox. You do NOT have access to external helper variables or pre-defined dictionaries.
-    2. DYNAMIC MAPPING: If the user asks to sort, filter, or analyze ordinal categorical data (e.g., Months, Days of Week, 'Low/Med/High', 'Q1/Q2/Q3'):
-    - YOU must explicitly create a mapping dictionary INSIDE your Python code before you use it.
-    - Example: 
-        # AI generates this dynamically based on the column context
-        category_map = {'Jan': 1, 'Feb': 2, 'Mar': 3} 
-        df['sort_col'] = df['Month'].map(category_map)
-    3. TIME SERIES: If columns contain string dates/months and the user wants a trend, map them to integers dynamically to avoid Pandas nanosecond boundary errors.
-    4. ⚠️ ORDER OF OPERATIONS (CRITICAL) ⚠️: 
-    If you need to aggregate data (groupby) AND sort by a category, you MUST apply the mapping dictionary to the RESULT dataframe AFTER the groupby, not before.
-    - CORRECT: 
-        result = df.groupby('Month')['Revenue'].sum().reset_index()
-        result['order'] = result['Month'].map(cat_map)
-        result = result.sort_values('order')
-    """
-    
+Semantic Rules: {semantic_layer}
+
+Your task: generate Python pandas code to answer: "{user_query}"
+
+The dataframe is already loaded as 'df'. Store your final output in 'result'.
+
+ABSOLUTE RULES:
+1. Use ONLY the column names listed above. Never invent or guess a column name.
+2. If the user asks for a chart (pie, bar, line, etc.) — produce the aggregated DataFrame
+   that feeds the chart. Do NOT describe the chart. Do NOT say "would likely".
+   Example: user says "pie chart of sales by genre"
+     result = df.groupby('Genre')['Global_Sales'].sum().reset_index()
+3. For a pie chart with no obvious value column, count occurrences:
+     result = df['SomeColumn'].value_counts().reset_index()
+     result.columns = ['Category', 'Count']
+4. Return ONLY valid Python pandas code. Zero prose, zero explanation.
+5. Do NOT import any library. Do NOT use plotly, matplotlib, or seaborn.
+6. 'result' must always be a DataFrame.
+
+DATE & TIME RULES:
+- If a column has month name strings (Jan, Feb...), do NOT use pd.to_datetime().
+- Sort by month using a manual mapping dict applied AFTER any groupby.
+
+NULL HANDLING:
+- Always call .dropna(subset=[relevant_col]) before groupby or value_counts.
+"""
+
     templates = {
-        "breakdown": base_prompt + "\n# Use groupby and appropriate aggregations. Reset the index.",
-        "comparison": base_prompt + "\n# Isolate the two segments, compare them, and return the difference.",
-        "change_analysis": base_prompt + "\n# Calculate percentage change over the time or category variable.",
-        "summary": base_prompt + "\n# Provide high-level descriptive statistics."
+        "breakdown":       base_prompt + "\n# Use groupby + aggregation. Reset index. Return a clean 2-column DataFrame.",
+        "comparison":      base_prompt + "\n# Isolate the segments being compared and return their values.",
+        "change_analysis": base_prompt + "\n# Calculate percentage or absolute change over time or category.",
+        "summary":         base_prompt + "\n# Return descriptive statistics as a clean DataFrame."
     }
     return templates.get(intent, base_prompt)

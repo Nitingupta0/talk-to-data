@@ -368,7 +368,7 @@ with st.sidebar:
                 welcome_msg = generate_welcome_message(st.session_state.datasets[f.name]["profile"])
                 multi_file_tip = ""
                 if len(current_files) > 1:
-                    multi_file_tip = "\n\n💡 **Tip:** I'll answer questions about each file independently. Say **'merge'**, **'combine'**, or **'for both files'** if you want me to analyse them together."
+                    multi_file_tip = "\n\n💡 **Tip:** With multiple files loaded, I'll automatically answer every question for **each file separately**. Say **'merge'** or **'combine'** if you want me to treat them as one combined dataset."
                 active_chat["history"].append({
                     "role": "assistant",
                     "content": f"📂 **{f.name}** loaded!\n\n{welcome_msg}{multi_file_tip}"
@@ -412,14 +412,14 @@ MERGE_KEYWORDS = [
     "between files", "all datasets", "both datasets",
 ]
 
-PER_FILE_KEYWORDS = [
-    "both files", "all files", "both the files",
-    "each file", "every file", "for both", "for each",
-    "for all files", "both data", "both the data",
-    "both csvs", "all csvs", "multiple files",
-    "both the data files", "both data files",
-    "for both files", "for all", "two files"
-]
+def _clean_history_for_llm(history: list) -> list:
+    """Return only the text content of chat history — strip tables/charts
+    which are large, non-textual, and confuse the LLM context window."""
+    cleaned = []
+    for msg in history:
+        if msg.get("content"):
+            cleaned.append({"role": msg["role"], "content": msg["content"]})
+    return cleaned
 
 # ==========================================
 # 5. MAIN CHAT AREA
@@ -444,20 +444,40 @@ if active_files:
     for i, msg in enumerate(active_chat["history"]):
         with st.chat_message(msg["role"]):
             st.markdown(msg["content"])
-            if msg.get("table"):
-                with st.expander("📄 Data Table"):
-                    st.markdown(msg["table"])
-            if msg.get("chart"):
-                fig = go.Figure(msg["chart"])
-                st.plotly_chart(fig, width='stretch', key=f"c_{active_id}_{i}")
-            for j, extra_chart in enumerate(msg.get("extra_charts", [])):
-                if extra_chart:
-                    fig = go.Figure(extra_chart)
-                    st.plotly_chart(fig, width='stretch', key=f"ec_{active_id}_{i}_{j}")
-            for j, extra_table in enumerate(msg.get("extra_tables", [])):
-                if extra_table:
-                    with st.expander(f"📄 Data Table {j + 2}"):
-                        st.markdown(extra_table)
+
+            # Collect all charts and tables in order, then render them
+            # together so file 1 and file 2 results stay visually aligned
+            all_msg_charts = []
+            all_msg_tables = []
+
+            if msg.get("chart") is not None:
+                all_msg_charts.append(msg["chart"])
+            for ec in msg.get("extra_charts", []):
+                if ec is not None:
+                    all_msg_charts.append(ec)
+
+            if msg.get("table") is not None:
+                all_msg_tables.append(msg["table"])
+            for et in msg.get("extra_tables", []):
+                if et is not None:
+                    all_msg_tables.append(et)
+
+            for k, chart_data in enumerate(all_msg_charts):
+                fig = go.Figure(chart_data)
+                fig.update_layout(
+                    height=420,
+                    margin=dict(t=40, b=40, l=20, r=20),
+                    paper_bgcolor="rgba(0,0,0,0)",
+                    plot_bgcolor="rgba(0,0,0,0)",
+                    font=dict(color="#EEF2FF"),
+                    legend=dict(bgcolor="rgba(0,0,0,0)")
+                )
+                st.plotly_chart(fig, use_container_width=True, key=f"chart_{active_id}_{i}_{k}")
+
+            for k, table_md in enumerate(all_msg_tables):
+                label = f"📄 Data Table" if len(all_msg_tables) == 1 else f"📄 Data Table {k + 1}"
+                with st.expander(label, expanded=False):
+                    st.markdown(table_md)
 
     # Chat input
     user_input = st.chat_input(f"Ask about: {', '.join(active_files)}")
@@ -475,24 +495,21 @@ if active_files:
         last_prompt = active_chat["history"][-1]["content"]
         last_prompt_lower = last_prompt.lower()
 
-        # Determine intent from the CURRENT message
+        # --- ROUTING LOGIC ---
+        # Merge: user explicitly asks to combine files into one analysis
         should_merge = any(k in last_prompt_lower for k in MERGE_KEYWORDS)
-        is_per_file = (
-            len(active_files) > 1 and
-            any(k in last_prompt_lower for k in PER_FILE_KEYWORDS) and
-            not should_merge
-        )
+        # Per-file: multiple files loaded AND not a merge request
+        # This is now the DEFAULT when multiple files are present.
+        is_multi_file = len(active_files) > 1 and not should_merge
 
-        print(f"DEBUG last_prompt: {last_prompt_lower}")
-        print(f"DEBUG should_merge: {should_merge}")
-        print(f"DEBUG is_per_file: {is_per_file}")
-        print(f"DEBUG active_files: {active_files}")
+        # Clean history before passing to LLM — strip chart/table blobs
+        clean_history = _clean_history_for_llm(active_chat["history"])
 
         with st.chat_message("assistant"):
             with st.spinner("Analyzing..."):
 
-                if is_per_file:
-                    # Process each file independently
+                # ── BRANCH A: MULTIPLE FILES (default for 2+ files, no merge keyword) ──
+                if is_multi_file:
                     all_narratives = []
                     all_charts = []
                     all_tables = []
@@ -503,7 +520,7 @@ if active_files:
                         intent, _ = classify_intent(last_prompt, file_data["profile"])
                         code, err = generate_code(
                             last_prompt, intent, file_data["profile"],
-                            sem, chat_history=active_chat["history"]
+                            sem, chat_history=clean_history
                         )
                         if err:
                             all_narratives.append(f"⚠️ **{fname}:** {err}")
@@ -521,30 +538,25 @@ if active_files:
                                 all_charts.append(final["chart"])
                                 all_tables.append(final["table"])
 
-                    print(f"DEBUG charts generated: {[c is not None for c in all_charts]}")
-
                     active_chat["history"].append({
                         "role": "assistant",
                         "content": "\n\n---\n\n".join(all_narratives),
-                        "table": all_tables[0] if all_tables else None,
-                        "chart": all_charts[0] if all_charts else None,
-                        "extra_charts": all_charts[1:] if len(all_charts) > 1 else [],
-                        "extra_tables": all_tables[1:] if len(all_tables) > 1 else []
+                        "table": None,
+                        "chart": None,
+                        "extra_charts": all_charts,
+                        "extra_tables": all_tables
                     })
 
+                # ── BRANCH B: MERGE — treat all files as one combined dataset ──
                 elif should_merge:
-                    # Merge all files
                     combined_df = pd.concat(
                         [st.session_state.datasets[f]["df"] for f in active_files],
                         ignore_index=True
                     )
-                    combined_profile = {
-                        "columns": list(combined_df.columns),
-                        "shape": combined_df.shape,
-                        "dtypes": combined_df.dtypes.astype(str).to_dict(),
-                        "sample": combined_df.head(3).to_dict(),
-                        "sources": active_files
-                    }
+                    # Use the real profiler so the LLM gets full schema context
+                    from data.profiler import generate_profile
+                    combined_profile = generate_profile(combined_df)
+                    combined_profile["sources"] = active_files
                     data_ref = {"df": combined_df, "profile": combined_profile}
 
                     is_vague, clarify = check_for_ambiguity(last_prompt, data_ref["profile"])
@@ -553,7 +565,10 @@ if active_files:
                     else:
                         sem = get_semantic_layer(data_ref["profile"])
                         intent, _ = classify_intent(last_prompt, data_ref["profile"])
-                        code, err = generate_code(last_prompt, intent, data_ref["profile"], sem, chat_history=active_chat["history"])
+                        code, err = generate_code(
+                            last_prompt, intent, data_ref["profile"],
+                            sem, chat_history=clean_history
+                        )
                         if err:
                             active_chat["history"].append({"role": "assistant", "content": f"⚠️ {err}"})
                         else:
@@ -562,25 +577,29 @@ if active_files:
                                 active_chat["history"].append({"role": "assistant", "content": f"⚠️ {exec_err}"})
                             else:
                                 final = format_response(res, last_prompt, intent)
+                                source_note = f"\n\n*Combined from: {', '.join(active_files)}*"
                                 active_chat["history"].append({
                                     "role": "assistant",
-                                    "content": final["narrative"],
+                                    "content": final["narrative"] + source_note,
                                     "table": final["table"],
                                     "chart": final["chart"],
                                     "extra_charts": [],
                                     "extra_tables": []
                                 })
 
+                # ── BRANCH C: SINGLE FILE ──
                 else:
-                    # Single file — use most recently uploaded
-                    data_ref = st.session_state.datasets[active_files[-1]]
+                    data_ref = st.session_state.datasets[active_files[0]]
                     is_vague, clarify = check_for_ambiguity(last_prompt, data_ref["profile"])
                     if is_vague:
                         active_chat["history"].append({"role": "assistant", "content": clarify})
                     else:
                         sem = get_semantic_layer(data_ref["profile"])
                         intent, _ = classify_intent(last_prompt, data_ref["profile"])
-                        code, err = generate_code(last_prompt, intent, data_ref["profile"], sem, chat_history=active_chat["history"])
+                        code, err = generate_code(
+                            last_prompt, intent, data_ref["profile"],
+                            sem, chat_history=clean_history
+                        )
                         if err:
                             active_chat["history"].append({"role": "assistant", "content": f"⚠️ {err}"})
                         else:

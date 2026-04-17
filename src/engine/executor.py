@@ -5,20 +5,46 @@ import ast
 import math 
 import numpy as np
 
+# Libraries the LLM is allowed to reference (already in safe_globals)
+_ALLOWED_IMPORTS = {"pandas", "pd", "numpy", "np", "math"}
+
+# Dangerous builtins to block
+_FORBIDDEN_CALLS = {"eval", "exec", "open", "compile", "__import__"}
+
+def _strip_allowed_imports(code_str: str) -> str:
+    """Remove import lines for allowed libraries so the AST check doesn't
+    block them, while still catching dangerous imports below."""
+    clean_lines = []
+    for line in code_str.splitlines():
+        stripped = line.strip()
+        # Drop lines like: import numpy as np / import pandas as pd / from numpy import ...
+        if stripped.startswith("import ") or stripped.startswith("from "):
+            # Check if it's an allowed library
+            parts = stripped.replace("import ", " ").replace("from ", " ").split()
+            lib = parts[0].split(".")[0] if parts else ""
+            if lib in _ALLOWED_IMPORTS:
+                continue  # silently drop — it's already in safe_globals
+            # Otherwise keep it so the AST check below catches it
+        clean_lines.append(line)
+    return "\n".join(clean_lines)
+
+
 def execute_code(code_str, df):
     """Executes code using an AST parser to guarantee no rogue imports."""
-    
-    # 1. AST SECURITY CHECK (The Ultimate Firewall)
+
+    # 1. PRE-CLEAN: strip redundant but harmless imports (pd, np, math)
+    code_str = _strip_allowed_imports(code_str)
+
+    # 2. AST SECURITY CHECK
     try:
         tree = ast.parse(code_str)
         for node in ast.walk(tree):
-            # If the AI tries to import ANYTHING, we kill it instantly.
             if isinstance(node, (ast.Import, ast.ImportFrom)):
-                return None, "Security Guardrail: The AI tried to import a library. Blocked."
-            
-            # If the AI tries to run dangerous functions like eval() or exec()
+                # Any import that survived stripping is dangerous
+                return None, "Security Guardrail: The AI tried to import a forbidden library. Blocked."
+
             if isinstance(node, ast.Call) and hasattr(node.func, 'id'):
-                if node.func.id in ['eval', 'exec', 'open']:
+                if node.func.id in _FORBIDDEN_CALLS:
                     return None, f"Security Guardrail: Forbidden function '{node.func.id}' detected."
     except SyntaxError as e:
         return None, f"The AI generated invalid code: {str(e)}"
