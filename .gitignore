@@ -1,5 +1,11 @@
 .env
 venv/
+.venv/
 __pycache__/
 *.pyc
 .DS_Store
+node_modules/
+frontend/dist/
+backend/storage/
+.pytest_cache/
+*.tsbuildinfo
