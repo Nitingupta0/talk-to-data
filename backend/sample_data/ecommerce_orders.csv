@@ -1,0 +1,1201 @@
+order_id,order_date,region,channel,customer_segment,category,product,units,unit_price,revenue,discount_pct,status
+ORD-10380,2024-01-03,East,Marketplace,VIP,Beauty,Face Serum,5,39.61,155.17,0,completed
+ORD-10772,2024-01-03,South,Web,Returning,Home,Air Purifier,2,149.31,233.97,20,completed
+ORD-10900,2024-01-03,East,Web,Returning,Apparel,Wool Sweater,4,64.51,202.17,5,completed
+ORD-10844,2024-01-03,North,Web,New,Electronics,Bluetooth Speaker,4,61.59,193.02,0,completed
+ORD-10845,2024-01-03,West,Web,Returning,Home,Coffee Maker,1,86.89,68.08,0,completed
+ORD-10464,2024-01-04,East,Mobile App,New,Electronics,Bluetooth Speaker,5,59.75,234.07,0,completed
+ORD-10574,2024-01-04,North,Marketplace,New,Home,Coffee Maker,4,84.4,264.51,0,completed
+ORD-11174,2024-01-05,East,Web,Returning,Apparel,Running Shoes,5,112.02,438.83,0,completed
+ORD-10103,2024-01-05,South,Mobile App,New,Beauty,Hair Dryer,4,65.92,206.59,15,completed
+ORD-11189,2024-01-05,West,Mobile App,New,Electronics,Smartwatch,3,193.82,455.57,0,completed
+ORD-10706,2024-01-05,West,Marketplace,New,Home,Desk Lamp,1,33.24,26.04,5,completed
+ORD-10302,2024-01-06,East,Web,Returning,Electronics,Smartwatch,2,186.74,292.62,10,completed
+ORD-11069,2024-01-06,South,Marketplace,Returning,Beauty,Face Serum,4,38.94,122.04,0,completed
+ORD-10789,2024-01-07,North,Mobile App,New,Electronics,Smartwatch,5,199.94,783.26,20,completed
+ORD-10800,2024-01-07,North,Mobile App,Returning,Home,Coffee Maker,2,80.31,125.84,0,completed
+ORD-10838,2024-01-08,West,Marketplace,New,Beauty,Face Serum,1,42.81,33.54,15,completed
+ORD-11120,2024-01-08,North,Marketplace,New,Electronics,Smartwatch,1,207.49,162.57,15,cancelled
+ORD-10409,2024-01-08,West,Mobile App,Returning,Home,Air Purifier,1,136.35,106.83,15,completed
+ORD-11037,2024-01-09,North,Web,VIP,Beauty,Face Serum,1,43.14,33.8,0,completed
+ORD-10888,2024-01-09,West,Web,New,Beauty,Hair Dryer,4,67.56,211.73,0,completed
+ORD-10414,2024-01-10,South,Mobile App,New,Home,Air Purifier,5,140.79,551.54,0,cancelled
+ORD-10477,2024-01-10,North,Web,VIP,Home,Coffee Maker,5,92.24,361.35,0,completed
+ORD-10232,2024-01-11,West,Web,New,Home,Desk Lamp,2,34.22,53.62,15,completed
+ORD-10539,2024-01-12,East,Marketplace,New,Apparel,Rain Jacket,3,89.83,211.14,20,cancelled
+ORD-10299,2024-01-12,West,Web,VIP,Home,Desk Lamp,2,31.64,49.58,20,completed
+ORD-10368,2024-01-13,East,Web,Returning,Home,Coffee Maker,2,81.9,128.34,10,completed
+ORD-10169,2024-01-13,South,Marketplace,New,Apparel,Rain Jacket,5,94.11,368.67,0,completed
+ORD-10271,2024-01-13,North,Marketplace,Returning,Electronics,Wireless Earbuds,3,78.15,183.69,0,completed
+ORD-11166,2024-01-13,South,Mobile App,Returning,Beauty,Hair Dryer,4,58.69,183.93,15,completed
+ORD-10820,2024-01-14,West,Web,New,Apparel,Wool Sweater,1,71.07,55.68,10,refunded
+ORD-10428,2024-01-14,North,Mobile App,Returning,Apparel,Wool Sweater,1,72.71,56.97,0,completed
+ORD-11179,2024-01-14,West,Marketplace,Returning,Home,Air Purifier,4,154.19,483.23,5,completed
+ORD-10453,2024-01-14,North,Web,Returning,Electronics,Bluetooth Speaker,3,53.41,125.54,0,completed
+ORD-10829,2024-01-16,North,Web,VIP,Home,Desk Lamp,1,34.78,27.25,0,completed
+ORD-10137,2024-01-17,North,Mobile App,Returning,Electronics,Smartwatch,3,180.8,424.97,10,cancelled
+ORD-10786,2024-01-18,East,Mobile App,Returning,Apparel,Running Shoes,2,114.84,179.95,10,completed
+ORD-10384,2024-01-18,East,Web,New,Electronics,Bluetooth Speaker,4,54.89,172.02,0,completed
+ORD-10146,2024-01-19,West,Marketplace,Returning,Electronics,Smartwatch,2,201.04,315.03,15,completed
+ORD-10843,2024-01-20,South,Mobile App,New,Electronics,Smartwatch,4,197.25,618.18,15,completed
+ORD-10662,2024-01-20,North,Web,Returning,Electronics,Wireless Earbuds,4,81.65,255.89,20,completed
+ORD-10969,2024-01-20,South,Mobile App,VIP,Home,Air Purifier,3,137.3,322.72,0,completed
+ORD-10116,2024-01-21,West,Web,Returning,Home,Coffee Maker,1,82.23,64.43,15,cancelled
+ORD-10327,2024-01-21,East,Web,VIP,Beauty,Face Serum,3,43.15,101.42,10,completed
+ORD-10869,2024-01-22,East,Web,Returning,Electronics,Bluetooth Speaker,4,57.23,179.36,20,completed
+ORD-11098,2024-01-23,North,Web,New,Beauty,Face Serum,4,42.13,132.03,0,refunded
+ORD-11018,2024-01-23,South,Marketplace,Returning,Beauty,Hair Dryer,2,59.36,93.02,0,completed
+ORD-10249,2024-01-23,North,Web,VIP,Beauty,Face Serum,5,40.78,159.75,15,completed
+ORD-10816,2024-01-24,East,Mobile App,New,Home,Coffee Maker,4,85.81,268.93,15,refunded
+ORD-10055,2024-01-24,North,Mobile App,New,Home,Coffee Maker,4,86.72,271.78,0,completed
+ORD-10901,2024-01-24,South,Mobile App,Returning,Beauty,Hair Dryer,2,66.4,104.05,0,completed
+ORD-10561,2024-01-24,East,Web,Returning,Apparel,Rain Jacket,5,92.68,363.07,0,completed
+ORD-11109,2024-01-25,South,Mobile App,Returning,Electronics,Smartwatch,3,194.58,457.36,5,completed
+ORD-10396,2024-01-25,South,Mobile App,Returning,Apparel,Running Shoes,5,100.23,392.65,0,completed
+ORD-10810,2024-01-25,North,Web,Returning,Apparel,Running Shoes,2,108.37,169.81,20,cancelled
+ORD-10351,2024-01-25,East,Web,VIP,Electronics,Wireless Earbuds,4,72.48,227.15,20,completed
+ORD-10573,2024-01-27,South,Marketplace,Returning,Apparel,Rain Jacket,2,91.85,143.93,20,completed
+ORD-10698,2024-01-28,West,Mobile App,VIP,Apparel,Running Shoes,5,99.41,389.44,20,completed
+ORD-10583,2024-01-29,East,Web,New,Electronics,Bluetooth Speaker,2,59.49,93.22,0,completed
+ORD-10847,2024-01-29,West,Marketplace,New,Home,Air Purifier,5,149.87,587.11,20,completed
+ORD-10897,2024-01-30,East,Mobile App,Returning,Apparel,Rain Jacket,4,91.2,285.82,0,cancelled
+ORD-10545,2024-01-30,North,Web,Returning,Electronics,Wireless Earbuds,2,76.68,120.16,0,completed
+ORD-10886,2024-01-30,West,Mobile App,New,Beauty,Hair Dryer,4,68.12,213.49,0,completed
+ORD-10541,2024-01-31,North,Mobile App,Returning,Apparel,Wool Sweater,4,68.71,215.34,0,completed
+ORD-11025,2024-01-31,South,Web,New,Apparel,Rain Jacket,3,98.99,232.67,0,completed
+ORD-11020,2024-01-31,North,Web,New,Electronics,Smartwatch,4,185.72,582.04,15,completed
+ORD-10857,2024-02-01,East,Web,Returning,Home,Air Purifier,5,143.88,629.48,20,cancelled
+ORD-10149,2024-02-01,West,Mobile App,Returning,Apparel,Wool Sweater,2,64.93,113.63,5,completed
+ORD-11135,2024-02-01,West,Web,New,Apparel,Rain Jacket,2,85.79,150.13,15,completed
+ORD-10618,2024-02-03,East,Mobile App,New,Apparel,Rain Jacket,3,90.07,236.43,0,completed
+ORD-10035,2024-02-04,North,Web,New,Electronics,Smartwatch,3,200.18,525.47,10,completed
+ORD-10278,2024-02-05,West,Mobile App,Returning,Apparel,Running Shoes,5,104.34,456.49,0,completed
+ORD-10517,2024-02-06,East,Mobile App,Returning,Apparel,Running Shoes,1,101.84,89.11,10,completed
+ORD-11034,2024-02-06,West,Mobile App,New,Beauty,Face Serum,2,38.58,67.52,0,completed
+ORD-10044,2024-02-07,West,Marketplace,Returning,Apparel,Wool Sweater,4,70.87,248.04,20,completed
+ORD-10386,2024-02-07,East,Marketplace,Returning,Home,Air Purifier,5,146.37,640.37,0,completed
+ORD-10898,2024-02-08,West,Web,Returning,Home,Air Purifier,4,137.08,479.78,0,completed
+ORD-11021,2024-02-09,East,Mobile App,Returning,Home,Desk Lamp,4,32.52,113.82,20,completed
+ORD-10658,2024-02-09,North,Marketplace,Returning,Home,Coffee Maker,3,91.84,241.08,20,completed
+ORD-10068,2024-02-11,West,Mobile App,New,Electronics,Smartwatch,5,200.94,879.11,0,completed
+ORD-11054,2024-02-11,West,Mobile App,New,Beauty,Face Serum,3,43.02,112.93,0,completed
+ORD-11026,2024-02-12,North,Web,VIP,Home,Air Purifier,1,148.67,130.09,0,completed
+ORD-10216,2024-02-13,East,Web,Returning,Beauty,Face Serum,1,40.04,35.03,0,completed
+ORD-10126,2024-02-13,North,Web,New,Electronics,Wireless Earbuds,2,77.52,135.66,20,completed
+ORD-11095,2024-02-13,East,Web,Returning,Home,Desk Lamp,4,33.2,116.2,0,completed
+ORD-10438,2024-02-14,North,Mobile App,VIP,Home,Air Purifier,5,134.26,587.39,10,completed
+ORD-10279,2024-02-15,West,Web,New,Home,Air Purifier,3,136.45,358.18,10,completed
+ORD-11121,2024-02-16,East,Web,Returning,Electronics,Bluetooth Speaker,4,60.16,210.56,0,completed
+ORD-10245,2024-02-16,South,Web,New,Beauty,Face Serum,2,41.3,72.27,15,completed
+ORD-10677,2024-02-16,East,Web,Returning,Electronics,Bluetooth Speaker,4,58.16,203.56,15,completed
+ORD-10430,2024-02-16,North,Mobile App,New,Home,Coffee Maker,1,87.61,76.66,10,completed
+ORD-10727,2024-02-17,South,Web,Returning,Home,Coffee Maker,2,83.42,145.99,0,completed
+ORD-10006,2024-02-17,North,Web,Returning,Beauty,Face Serum,3,41.52,108.99,10,completed
+ORD-10880,2024-02-17,North,Mobile App,Returning,Home,Coffee Maker,1,89.68,78.47,20,cancelled
+ORD-10195,2024-02-17,South,Mobile App,Returning,Home,Air Purifier,2,142.77,249.85,0,completed
+ORD-10752,2024-02-17,North,Web,VIP,Electronics,Smartwatch,4,192.55,673.92,10,completed
+ORD-10000,2024-02-18,North,Mobile App,New,Home,Coffee Maker,4,91.17,319.1,20,completed
+ORD-10171,2024-02-19,North,Web,Returning,Home,Air Purifier,2,149.12,260.96,0,cancelled
+ORD-10132,2024-02-19,North,Mobile App,Returning,Electronics,Smartwatch,5,182.03,796.38,0,completed
+ORD-10825,2024-02-19,East,Web,New,Home,Desk Lamp,4,34.36,120.26,10,completed
+ORD-10358,2024-02-19,North,Web,New,Home,Air Purifier,1,149.25,130.59,0,completed
+ORD-10694,2024-02-19,East,Marketplace,Returning,Home,Desk Lamp,4,35.45,124.08,20,completed
+ORD-10032,2024-02-20,West,Mobile App,VIP,Electronics,Wireless Earbuds,2,74.11,129.69,0,completed
+ORD-10909,2024-02-20,West,Mobile App,Returning,Apparel,Wool Sweater,4,71.61,250.64,10,completed
+ORD-10242,2024-02-21,West,Mobile App,Returning,Home,Coffee Maker,2,92.37,161.65,10,completed
+ORD-10699,2024-02-21,West,Web,Returning,Home,Air Purifier,1,143.71,125.75,0,refunded
+ORD-10580,2024-02-21,South,Mobile App,New,Apparel,Rain Jacket,1,96.41,84.36,0,completed
+ORD-10009,2024-02-21,North,Marketplace,New,Home,Desk Lamp,5,35.44,155.05,0,completed
+ORD-10950,2024-02-21,East,Mobile App,VIP,Electronics,Wireless Earbuds,5,76.14,333.11,10,completed
+ORD-10375,2024-02-21,North,Web,New,Apparel,Wool Sweater,1,67.46,59.03,20,completed
+ORD-10217,2024-02-22,North,Marketplace,New,Home,Desk Lamp,3,31.57,82.87,5,completed
+ORD-10673,2024-02-22,East,Web,New,Home,Air Purifier,1,141.83,124.1,5,completed
+ORD-10790,2024-02-22,North,Marketplace,New,Beauty,Face Serum,1,39.2,34.3,0,completed
+ORD-10976,2024-02-22,North,Web,VIP,Apparel,Running Shoes,2,99.9,174.82,0,refunded
+ORD-10086,2024-02-23,West,Marketplace,VIP,Home,Air Purifier,4,138.69,485.42,5,cancelled
+ORD-10587,2024-02-24,West,Web,New,Beauty,Face Serum,5,40.85,178.72,20,refunded
+ORD-10890,2024-02-24,South,Mobile App,VIP,Electronics,Wireless Earbuds,2,72.79,127.38,0,completed
+ORD-10579,2024-02-25,East,Mobile App,New,Electronics,Smartwatch,3,181.3,475.91,0,completed
+ORD-10257,2024-02-26,East,Mobile App,New,Beauty,Face Serum,5,39.75,173.91,0,completed
+ORD-10459,2024-02-27,North,Web,Returning,Apparel,Rain Jacket,2,96.78,169.36,10,completed
+ORD-11165,2024-02-27,West,Mobile App,New,Electronics,Wireless Earbuds,1,74.05,64.79,0,completed
+ORD-10515,2024-02-27,North,Mobile App,VIP,Electronics,Smartwatch,3,201.65,529.33,0,completed
+ORD-10817,2024-02-28,South,Mobile App,Returning,Home,Air Purifier,1,140.35,122.81,10,refunded
+ORD-10170,2024-02-28,South,Web,New,Electronics,Smartwatch,5,208.55,912.41,10,completed
+ORD-10582,2024-02-28,West,Marketplace,Returning,Electronics,Wireless Earbuds,2,75.86,132.76,15,completed
+ORD-10321,2024-02-28,South,Web,Returning,Apparel,Rain Jacket,4,91.69,320.91,0,completed
+ORD-10309,2024-02-29,South,Mobile App,New,Electronics,Bluetooth Speaker,2,53.73,94.03,15,completed
+ORD-10479,2024-02-29,West,Web,VIP,Electronics,Bluetooth Speaker,1,58.09,50.83,15,completed
+ORD-10807,2024-03-01,East,Web,Returning,Electronics,Wireless Earbuds,3,78.56,235.68,10,completed
+ORD-10119,2024-03-03,South,Mobile App,Returning,Beauty,Face Serum,3,39.52,118.56,15,completed
+ORD-10872,2024-03-03,South,Mobile App,New,Electronics,Smartwatch,5,182.43,912.15,20,cancelled
+ORD-10500,2024-03-03,West,Marketplace,New,Electronics,Wireless Earbuds,1,76.01,76.01,20,completed
+ORD-10364,2024-03-04,North,Mobile App,New,Beauty,Face Serum,2,39.78,79.56,5,completed
+ORD-10537,2024-03-04,North,Web,New,Home,Air Purifier,3,147.34,442.02,0,completed
+ORD-11019,2024-03-04,North,Mobile App,Returning,Electronics,Bluetooth Speaker,3,59.48,178.44,20,refunded
+ORD-10197,2024-03-05,West,Web,New,Electronics,Wireless Earbuds,5,72.22,361.1,20,completed
+ORD-10725,2024-03-05,South,Web,New,Beauty,Face Serum,1,42.84,42.84,0,cancelled
+ORD-10777,2024-03-05,North,Web,VIP,Beauty,Face Serum,5,38.29,191.45,10,completed
+ORD-10312,2024-03-06,West,Marketplace,Returning,Beauty,Face Serum,5,41.24,206.2,0,completed
+ORD-10945,2024-03-06,West,Mobile App,New,Home,Desk Lamp,1,36.13,36.13,20,completed
+ORD-11156,2024-03-06,East,Marketplace,New,Electronics,Smartwatch,2,206.19,412.38,0,completed
+ORD-10862,2024-03-06,South,Web,New,Electronics,Smartwatch,5,199.28,996.4,5,completed
+ORD-10496,2024-03-06,South,Web,Returning,Electronics,Smartwatch,1,200.5,200.5,0,completed
+ORD-11049,2024-03-06,West,Mobile App,Returning,Apparel,Running Shoes,1,110.84,110.84,20,completed
+ORD-10723,2024-03-06,West,Web,VIP,Apparel,Running Shoes,5,106.12,530.6,5,completed
+ORD-10783,2024-03-07,North,Mobile App,New,Beauty,Hair Dryer,1,60.71,60.71,15,refunded
+ORD-10417,2024-03-07,East,Web,New,Apparel,Running Shoes,4,111.98,447.92,15,completed
+ORD-10435,2024-03-08,North,Web,Returning,Apparel,Running Shoes,5,108.27,541.35,10,completed
+ORD-10385,2024-03-08,West,Mobile App,Returning,Beauty,Face Serum,4,42.12,168.48,0,completed
+ORD-10782,2024-03-08,South,Marketplace,VIP,Home,Coffee Maker,4,92.56,370.24,20,completed
+ORD-10873,2024-03-09,East,Web,Returning,Home,Air Purifier,4,136.78,547.12,20,completed
+ORD-10156,2024-03-10,West,Web,Returning,Electronics,Smartwatch,1,181.2,181.2,0,completed
+ORD-10220,2024-03-10,South,Web,Returning,Electronics,Wireless Earbuds,5,74.35,371.75,20,cancelled
+ORD-10758,2024-03-10,South,Web,New,Apparel,Wool Sweater,3,72.74,218.22,0,completed
+ORD-10704,2024-03-11,West,Web,Returning,Apparel,Wool Sweater,3,63.64,190.92,10,completed
+ORD-11004,2024-03-11,North,Web,VIP,Electronics,Wireless Earbuds,2,77.48,154.96,20,completed
+ORD-10944,2024-03-11,South,Web,Returning,Home,Coffee Maker,1,82.47,82.47,0,completed
+ORD-10017,2024-03-11,North,Marketplace,Returning,Home,Coffee Maker,2,81.32,162.64,20,completed
+ORD-10433,2024-03-12,North,Mobile App,New,Beauty,Face Serum,1,39.36,39.36,15,completed
+ORD-10073,2024-03-12,West,Web,Returning,Apparel,Running Shoes,3,110.94,332.82,0,completed
+ORD-10413,2024-03-13,South,Mobile App,Returning,Beauty,Face Serum,4,38.14,152.56,5,refunded
+ORD-10669,2024-03-13,East,Web,New,Home,Coffee Maker,2,87.79,175.58,0,completed
+ORD-10442,2024-03-13,South,Web,New,Apparel,Wool Sweater,5,63.42,317.1,10,completed
+ORD-10947,2024-03-14,South,Mobile App,New,Apparel,Wool Sweater,2,63.96,127.92,15,completed
+ORD-10603,2024-03-14,South,Web,VIP,Apparel,Running Shoes,3,102.63,307.89,0,completed
+ORD-10822,2024-03-15,West,Mobile App,New,Home,Desk Lamp,2,34.33,68.66,0,completed
+ORD-10681,2024-03-16,East,Web,New,Home,Desk Lamp,1,32.4,32.4,0,completed
+ORD-10240,2024-03-17,North,Web,Returning,Electronics,Bluetooth Speaker,2,61.05,122.1,10,completed
+ORD-10099,2024-03-17,East,Web,Returning,Electronics,Bluetooth Speaker,3,54.6,163.8,10,completed
+ORD-10305,2024-03-17,South,Web,Returning,Apparel,Wool Sweater,4,63.5,254.0,20,completed
+ORD-10720,2024-03-17,South,Web,New,Home,Coffee Maker,3,88.62,265.86,10,completed
+ORD-10117,2024-03-17,West,Web,Returning,Electronics,Wireless Earbuds,2,79.08,158.16,15,completed
+ORD-10461,2024-03-17,West,Web,New,Apparel,Running Shoes,1,112.03,112.03,10,completed
+ORD-10768,2024-03-17,North,Web,VIP,Electronics,Bluetooth Speaker,2,58.96,117.92,5,completed
+ORD-10619,2024-03-17,East,Marketplace,New,Electronics,Wireless Earbuds,4,82.53,330.12,10,completed
+ORD-10328,2024-03-18,North,Marketplace,New,Home,Coffee Maker,4,86.86,347.44,5,completed
+ORD-11186,2024-03-18,North,Web,Returning,Electronics,Smartwatch,5,182.21,911.05,0,completed
+ORD-11089,2024-03-18,East,Marketplace,New,Home,Desk Lamp,2,32.44,64.88,15,cancelled
+ORD-10527,2024-03-19,North,Marketplace,Returning,Apparel,Running Shoes,2,101.53,203.06,15,refunded
+ORD-10833,2024-03-19,East,Web,New,Electronics,Wireless Earbuds,2,76.67,153.34,15,cancelled
+ORD-11062,2024-03-19,North,Mobile App,Returning,Apparel,Running Shoes,3,101.67,305.01,0,completed
+ORD-10407,2024-03-19,North,Marketplace,New,Electronics,Smartwatch,4,186.61,746.44,0,completed
+ORD-10255,2024-03-20,South,Web,New,Home,Desk Lamp,5,35.72,178.6,5,completed
+ORD-10521,2024-03-20,East,Web,New,Electronics,Bluetooth Speaker,5,60.78,303.9,10,completed
+ORD-10923,2024-03-20,East,Web,New,Apparel,Wool Sweater,3,72.69,218.07,0,completed
+ORD-10974,2024-03-21,North,Web,New,Electronics,Bluetooth Speaker,3,53.78,161.34,0,completed
+ORD-10751,2024-03-21,West,Mobile App,New,Apparel,Rain Jacket,2,92.79,185.58,20,completed
+ORD-10937,2024-03-22,North,Web,Returning,Apparel,Wool Sweater,5,69.82,349.1,15,completed
+ORD-10456,2024-03-22,West,Mobile App,Returning,Beauty,Hair Dryer,1,67.64,67.64,0,completed
+ORD-11103,2024-03-23,South,Marketplace,Returning,Apparel,Wool Sweater,4,66.21,264.84,20,completed
+ORD-10356,2024-03-23,West,Web,New,Apparel,Rain Jacket,5,93.49,467.45,0,completed
+ORD-10272,2024-03-23,East,Web,Returning,Beauty,Hair Dryer,1,64.76,64.76,0,refunded
+ORD-10389,2024-03-24,West,Mobile App,New,Apparel,Rain Jacket,2,89.33,178.66,0,completed
+ORD-10960,2024-03-24,West,Web,VIP,Beauty,Face Serum,1,39.79,39.79,5,completed
+ORD-10181,2024-03-24,South,Web,New,Beauty,Face Serum,5,39.42,197.1,5,completed
+ORD-10535,2024-03-25,West,Mobile App,Returning,Electronics,Bluetooth Speaker,1,60.14,60.14,0,cancelled
+ORD-10883,2024-03-25,North,Web,Returning,Electronics,Wireless Earbuds,3,76.59,229.77,20,completed
+ORD-10057,2024-03-25,South,Mobile App,VIP,Electronics,Bluetooth Speaker,4,54.44,217.76,15,completed
+ORD-11045,2024-03-25,East,Web,New,Home,Coffee Maker,1,83.57,83.57,0,completed
+ORD-10846,2024-03-26,North,Marketplace,Returning,Beauty,Face Serum,5,42.41,212.05,0,completed
+ORD-10532,2024-03-26,South,Web,New,Electronics,Bluetooth Speaker,2,57.29,114.58,0,completed
+ORD-10749,2024-03-27,East,Mobile App,New,Electronics,Smartwatch,4,185.08,740.32,0,completed
+ORD-10936,2024-03-27,North,Web,Returning,Apparel,Running Shoes,2,104.65,209.3,10,completed
+ORD-10082,2024-03-28,East,Web,Returning,Electronics,Wireless Earbuds,3,78.91,236.73,0,completed
+ORD-10177,2024-03-29,North,Mobile App,Returning,Electronics,Bluetooth Speaker,1,56.33,56.33,10,completed
+ORD-10286,2024-03-29,West,Web,Returning,Home,Air Purifier,5,148.15,740.75,0,completed
+ORD-11075,2024-03-30,West,Web,Returning,Beauty,Face Serum,1,40.36,40.36,0,refunded
+ORD-10349,2024-03-31,South,Marketplace,VIP,Electronics,Wireless Earbuds,3,75.75,227.25,15,completed
+ORD-10531,2024-03-31,West,Web,Returning,Home,Desk Lamp,5,31.59,157.95,0,completed
+ORD-11077,2024-03-31,West,Web,VIP,Home,Coffee Maker,2,87.76,175.52,0,completed
+ORD-10622,2024-03-31,East,Web,Returning,Beauty,Hair Dryer,1,62.9,62.9,10,cancelled
+ORD-10186,2024-03-31,South,Mobile App,Returning,Apparel,Running Shoes,5,111.0,555.0,10,completed
+ORD-10466,2024-03-31,West,Marketplace,Returning,Home,Desk Lamp,3,34.75,104.25,15,completed
+ORD-10040,2024-03-31,West,Web,New,Apparel,Wool Sweater,4,66.99,267.96,10,completed
+ORD-10167,2024-04-01,East,Web,Returning,Electronics,Bluetooth Speaker,2,54.77,123.23,10,completed
+ORD-10702,2024-04-01,North,Marketplace,Returning,Apparel,Running Shoes,1,108.47,122.03,0,completed
+ORD-10684,2024-04-02,West,Web,VIP,Beauty,Face Serum,3,38.96,131.49,0,completed
+ORD-10703,2024-04-03,West,Marketplace,Returning,Electronics,Wireless Earbuds,4,79.21,356.44,5,completed
+ORD-11192,2024-04-03,West,Web,New,Electronics,Bluetooth Speaker,5,57.99,326.19,10,cancelled
+ORD-10261,2024-04-03,South,Web,VIP,Apparel,Rain Jacket,4,95.42,429.39,0,completed
+ORD-11031,2024-04-04,West,Web,Returning,Beauty,Face Serum,1,40.04,45.04,5,completed
+ORD-10907,2024-04-04,South,Marketplace,Returning,Home,Coffee Maker,2,91.86,206.68,15,cancelled
+ORD-10543,2024-04-05,South,Marketplace,New,Apparel,Rain Jacket,3,88.71,299.4,5,completed
+ORD-10258,2024-04-05,North,Web,New,Home,Air Purifier,2,146.73,330.14,0,completed
+ORD-10410,2024-04-05,West,Mobile App,New,Apparel,Rain Jacket,1,94.89,106.75,0,completed
+ORD-10229,2024-04-06,North,Web,Returning,Electronics,Wireless Earbuds,2,76.83,172.87,20,completed
+ORD-10760,2024-04-06,North,Mobile App,Returning,Apparel,Running Shoes,3,115.3,389.14,15,completed
+ORD-10660,2024-04-06,East,Mobile App,VIP,Electronics,Wireless Earbuds,5,73.62,414.11,20,completed
+ORD-11173,2024-04-07,East,Mobile App,VIP,Beauty,Hair Dryer,1,61.38,69.05,20,completed
+ORD-10250,2024-04-08,West,Marketplace,VIP,Electronics,Bluetooth Speaker,3,61.7,208.24,0,completed
+ORD-10348,2024-04-08,West,Marketplace,Returning,Beauty,Hair Dryer,2,66.05,148.61,0,completed
+ORD-10391,2024-04-08,South,Mobile App,New,Apparel,Wool Sweater,5,70.34,395.66,0,completed
+ORD-11105,2024-04-08,East,Web,Returning,Beauty,Face Serum,1,38.4,43.2,15,completed
+ORD-10022,2024-04-09,South,Mobile App,New,Beauty,Face Serum,5,40.79,229.44,20,completed
+ORD-10468,2024-04-09,West,Web,Returning,Electronics,Bluetooth Speaker,4,55.85,251.32,5,completed
+ORD-10563,2024-04-09,East,Web,Returning,Electronics,Wireless Earbuds,5,73.29,412.26,10,completed
+ORD-10911,2024-04-10,East,Marketplace,Returning,Electronics,Smartwatch,5,193.26,1087.09,0,completed
+ORD-10634,2024-04-10,South,Marketplace,Returning,Electronics,Wireless Earbuds,3,78.08,263.52,15,completed
+ORD-10252,2024-04-12,East,Mobile App,Returning,Beauty,Face Serum,5,39.51,222.24,0,refunded
+ORD-10071,2024-04-13,South,Web,New,Home,Air Purifier,5,155.65,875.53,0,completed
+ORD-11177,2024-04-14,West,Mobile App,Returning,Home,Desk Lamp,1,36.68,41.26,5,completed
+ORD-10887,2024-04-15,South,Marketplace,New,Home,Air Purifier,2,153.08,344.43,0,completed
+ORD-11112,2024-04-15,South,Web,Returning,Beauty,Hair Dryer,4,66.02,297.09,0,completed
+ORD-10522,2024-04-15,North,Mobile App,VIP,Apparel,Wool Sweater,4,64.15,288.68,0,completed
+ORD-10051,2024-04-16,North,Mobile App,VIP,Beauty,Face Serum,4,38.41,172.84,0,completed
+ORD-10542,2024-04-16,West,Web,Returning,Apparel,Running Shoes,3,113.62,383.47,0,completed
+ORD-11114,2024-04-16,South,Web,New,Electronics,Wireless Earbuds,3,80.2,270.68,15,completed
+ORD-10992,2024-04-17,North,Web,Returning,Beauty,Face Serum,2,38.31,86.2,20,completed
+ORD-10397,2024-04-17,North,Marketplace,New,Electronics,Bluetooth Speaker,5,54.08,304.2,0,completed
+ORD-10837,2024-04-18,North,Mobile App,New,Home,Desk Lamp,3,31.71,107.02,0,completed
+ORD-11084,2024-04-19,North,Marketplace,New,Electronics,Smartwatch,1,195.22,219.62,0,completed
+ORD-10101,2024-04-19,West,Mobile App,Returning,Electronics,Wireless Earbuds,4,73.42,330.39,5,completed
+ORD-10425,2024-04-19,East,Web,Returning,Electronics,Wireless Earbuds,3,77.36,261.09,10,completed
+ORD-10871,2024-04-20,South,Web,Returning,Electronics,Bluetooth Speaker,4,54.9,247.05,0,completed
+ORD-10223,2024-04-20,North,Mobile App,New,Apparel,Running Shoes,3,110.48,372.87,0,completed
+ORD-10663,2024-04-20,West,Web,New,Beauty,Hair Dryer,2,65.12,146.52,20,completed
+ORD-10338,2024-04-20,North,Marketplace,New,Beauty,Hair Dryer,1,61.35,69.02,0,completed
+ORD-10652,2024-04-20,West,Marketplace,Returning,Electronics,Bluetooth Speaker,5,55.84,314.1,0,cancelled
+ORD-10008,2024-04-20,South,Web,New,Apparel,Rain Jacket,2,86.63,194.92,0,completed
+ORD-10734,2024-04-23,East,Web,New,Beauty,Hair Dryer,1,60.13,67.65,5,completed
+ORD-11071,2024-04-24,West,Mobile App,New,Apparel,Wool Sweater,3,69.79,235.54,10,completed
+ORD-10141,2024-04-27,North,Mobile App,New,Electronics,Wireless Earbuds,3,73.15,246.88,0,completed
+ORD-10902,2024-04-29,North,Mobile App,New,Home,Desk Lamp,2,35.2,79.2,0,completed
+ORD-10963,2024-04-29,South,Web,Returning,Beauty,Face Serum,1,39.53,44.47,10,completed
+ORD-10362,2024-05-02,North,Mobile App,Returning,Electronics,Smartwatch,2,196.57,478.26,0,completed
+ORD-10975,2024-05-03,North,Web,VIP,Electronics,Bluetooth Speaker,5,54.89,333.87,20,completed
+ORD-10077,2024-05-04,West,Mobile App,VIP,Home,Desk Lamp,3,34.71,126.67,15,completed
+ORD-10566,2024-05-04,East,Mobile App,Returning,Apparel,Rain Jacket,1,97.77,118.94,10,completed
+ORD-10031,2024-05-04,North,Web,New,Apparel,Rain Jacket,1,86.42,105.13,0,completed
+ORD-10411,2024-05-05,South,Web,VIP,Home,Desk Lamp,1,32.2,39.17,10,refunded
+ORD-10325,2024-05-05,East,Marketplace,New,Electronics,Smartwatch,4,204.38,994.52,10,cancelled
+ORD-10147,2024-05-07,West,Mobile App,Returning,Home,Desk Lamp,3,35.24,128.61,0,completed
+ORD-11111,2024-05-07,North,Web,Returning,Home,Desk Lamp,2,35.85,87.22,15,completed
+ORD-10485,2024-05-07,South,Web,Returning,Apparel,Rain Jacket,3,96.18,351.01,15,completed
+ORD-10625,2024-05-07,South,Marketplace,New,Beauty,Face Serum,2,41.33,100.56,20,completed
+ORD-10718,2024-05-08,West,Marketplace,Returning,Apparel,Wool Sweater,3,72.81,265.72,0,completed
+ORD-10636,2024-05-08,North,Marketplace,New,Electronics,Bluetooth Speaker,3,60.38,220.36,0,cancelled
+ORD-10509,2024-05-09,South,Web,New,Electronics,Wireless Earbuds,3,74.4,271.52,20,completed
+ORD-10326,2024-05-09,West,Mobile App,New,Electronics,Smartwatch,2,191.23,465.27,20,refunded
+ORD-10565,2024-05-09,North,Web,Returning,Beauty,Hair Dryer,1,66.42,80.8,0,completed
+ORD-10853,2024-05-10,North,Web,Returning,Beauty,Hair Dryer,3,62.31,227.4,10,completed
+ORD-10188,2024-05-10,West,Mobile App,Returning,Apparel,Wool Sweater,5,64.5,392.32,20,completed
+ORD-11046,2024-05-10,East,Mobile App,New,Electronics,Bluetooth Speaker,1,55.24,67.2,15,completed
+ORD-10592,2024-05-11,North,Marketplace,Returning,Beauty,Hair Dryer,5,66.36,403.64,5,completed
+ORD-10383,2024-05-11,West,Marketplace,Returning,Home,Desk Lamp,5,34.42,209.36,20,completed
+ORD-10096,2024-05-11,South,Marketplace,New,Apparel,Running Shoes,5,100.38,610.56,5,completed
+ORD-10831,2024-05-11,West,Mobile App,Returning,Apparel,Running Shoes,3,109.25,398.71,0,completed
+ORD-10314,2024-05-13,North,Web,Returning,Beauty,Hair Dryer,2,61.35,149.27,0,completed
+ORD-11123,2024-05-13,North,Web,New,Home,Air Purifier,5,142.71,868.04,20,completed
+ORD-11106,2024-05-13,West,Marketplace,New,Electronics,Smartwatch,3,200.35,731.18,15,completed
+ORD-10856,2024-05-13,East,Mobile App,Returning,Electronics,Smartwatch,5,203.11,1235.42,0,completed
+ORD-10988,2024-05-14,West,Marketplace,Returning,Electronics,Smartwatch,3,208.66,761.51,5,completed
+ORD-10118,2024-05-14,West,Web,Returning,Apparel,Wool Sweater,5,65.84,400.47,0,completed
+ORD-11012,2024-05-14,West,Web,Returning,Apparel,Wool Sweater,2,72.76,177.03,5,completed
+ORD-10830,2024-05-14,North,Marketplace,Returning,Beauty,Hair Dryer,3,63.14,230.43,0,completed
+ORD-10924,2024-05-15,East,Mobile App,New,Apparel,Wool Sweater,2,65.18,158.58,15,completed
+ORD-10507,2024-05-15,South,Mobile App,Returning,Home,Desk Lamp,4,35.75,173.96,10,completed
+ORD-10616,2024-05-16,North,Web,Returning,Electronics,Smartwatch,2,190.01,462.3,0,completed
+ORD-10567,2024-05-16,East,Web,New,Home,Air Purifier,3,144.89,528.78,10,completed
+ORD-10482,2024-05-17,West,Mobile App,Returning,Beauty,Hair Dryer,5,66.67,405.52,0,completed
+ORD-10695,2024-05-18,South,Web,VIP,Home,Desk Lamp,1,33.72,41.02,0,completed
+ORD-10918,2024-05-19,North,Mobile App,New,Electronics,Bluetooth Speaker,1,58.95,71.71,0,completed
+ORD-10345,2024-05-20,North,Web,Returning,Electronics,Bluetooth Speaker,4,59.05,287.34,5,completed
+ORD-10932,2024-05-20,North,Mobile App,New,Home,Desk Lamp,5,34.18,207.9,10,completed
+ORD-11178,2024-05-21,North,Marketplace,New,Home,Air Purifier,2,148.72,361.84,10,completed
+ORD-10210,2024-05-22,South,Web,New,Electronics,Wireless Earbuds,5,75.27,457.83,0,completed
+ORD-10379,2024-05-23,North,Web,Returning,Electronics,Wireless Earbuds,3,82.41,300.76,20,completed
+ORD-10208,2024-05-24,West,Web,Returning,Home,Coffee Maker,4,81.56,396.87,5,completed
+ORD-10205,2024-05-25,East,Mobile App,Returning,Electronics,Bluetooth Speaker,5,56.79,345.43,20,completed
+ORD-10617,2024-05-25,East,Marketplace,Returning,Home,Coffee Maker,1,82.23,100.03,10,completed
+ORD-10291,2024-05-26,West,Web,New,Beauty,Hair Dryer,2,65.52,159.41,0,completed
+ORD-10508,2024-05-26,North,Web,New,Beauty,Hair Dryer,1,65.14,79.24,15,completed
+ORD-11122,2024-05-27,West,Web,New,Apparel,Wool Sweater,4,72.31,351.86,10,completed
+ORD-11010,2024-05-27,South,Web,Returning,Electronics,Wireless Earbuds,4,74.23,361.21,15,completed
+ORD-10743,2024-05-27,West,Mobile App,New,Home,Air Purifier,4,145.52,708.1,10,completed
+ORD-10778,2024-05-28,West,Web,Returning,Apparel,Running Shoes,3,111.51,406.96,0,completed
+ORD-10215,2024-05-28,West,Web,New,Beauty,Face Serum,5,42.51,258.57,15,completed
+ORD-10889,2024-05-28,South,Marketplace,New,Home,Coffee Maker,2,83.5,203.16,20,completed
+ORD-10504,2024-05-29,North,Mobile App,New,Electronics,Wireless Earbuds,2,79.61,193.69,20,cancelled
+ORD-10280,2024-05-30,South,Marketplace,New,Home,Desk Lamp,2,34.99,85.13,20,completed
+ORD-10110,2024-05-31,East,Web,New,Beauty,Face Serum,5,39.7,241.48,15,completed
+ORD-10142,2024-05-31,East,Mobile App,New,Beauty,Hair Dryer,5,68.21,414.89,20,completed
+ORD-10038,2024-05-31,East,Marketplace,Returning,Apparel,Running Shoes,5,102.04,620.66,10,cancelled
+ORD-10949,2024-06-01,North,Mobile App,New,Electronics,Bluetooth Speaker,1,55.71,69.64,0,completed
+ORD-10412,2024-06-01,East,Mobile App,New,Home,Desk Lamp,3,34.18,128.17,0,completed
+ORD-11191,2024-06-01,South,Mobile App,Returning,Electronics,Bluetooth Speaker,3,59.5,223.12,5,completed
+ORD-10313,2024-06-02,North,Mobile App,Returning,Beauty,Hair Dryer,1,64.51,80.64,0,completed
+ORD-10151,2024-06-02,North,Web,New,Electronics,Bluetooth Speaker,1,58.4,73.0,0,completed
+ORD-10398,2024-06-02,South,Mobile App,Returning,Beauty,Hair Dryer,3,65.25,244.69,10,completed
+ORD-11027,2024-06-02,North,Web,VIP,Electronics,Wireless Earbuds,4,78.96,394.8,0,completed
+ORD-10572,2024-06-03,North,Mobile App,Returning,Electronics,Smartwatch,2,188.27,470.68,20,completed
+ORD-10533,2024-06-04,North,Web,Returning,Apparel,Rain Jacket,5,87.84,549.0,0,refunded
+ORD-10813,2024-06-04,West,Mobile App,Returning,Beauty,Hair Dryer,2,59.1,147.75,0,completed
+ORD-10298,2024-06-04,West,Marketplace,Returning,Electronics,Wireless Earbuds,5,76.78,479.88,5,completed
+ORD-10449,2024-06-05,South,Mobile App,New,Electronics,Smartwatch,3,203.63,763.61,0,refunded
+ORD-10480,2024-06-06,West,Web,Returning,Electronics,Bluetooth Speaker,4,57.01,285.05,5,completed
+ORD-10659,2024-06-06,North,Marketplace,New,Beauty,Face Serum,5,38.16,238.5,5,completed
+ORD-10095,2024-06-06,South,Web,New,Home,Coffee Maker,3,80.73,302.74,0,completed
+ORD-10854,2024-06-06,West,Marketplace,VIP,Home,Coffee Maker,2,88.16,220.4,0,completed
+ORD-10494,2024-06-07,South,Web,Returning,Home,Desk Lamp,5,32.18,201.12,0,completed
+ORD-10840,2024-06-07,North,Mobile App,VIP,Electronics,Wireless Earbuds,4,79.19,395.95,20,completed
+ORD-11113,2024-06-08,East,Mobile App,New,Beauty,Face Serum,1,40.95,51.19,10,completed
+ORD-10341,2024-06-08,North,Mobile App,Returning,Apparel,Running Shoes,1,112.56,140.7,10,completed
+ORD-10153,2024-06-09,North,Web,VIP,Home,Air Purifier,1,136.87,171.09,10,completed
+ORD-10270,2024-06-10,West,Mobile App,Returning,Apparel,Running Shoes,5,114.83,717.69,0,completed
+ORD-10795,2024-06-10,North,Web,VIP,Electronics,Smartwatch,2,198.59,496.48,0,completed
+ORD-10418,2024-06-11,South,Web,New,Electronics,Wireless Earbuds,1,71.78,89.72,0,completed
+ORD-10637,2024-06-11,North,Web,Returning,Home,Air Purifier,1,138.94,173.68,0,completed
+ORD-10352,2024-06-12,North,Mobile App,New,Electronics,Bluetooth Speaker,2,53.44,133.6,15,completed
+ORD-10970,2024-06-12,West,Marketplace,Returning,Home,Desk Lamp,2,36.51,91.28,10,completed
+ORD-10441,2024-06-13,North,Web,New,Apparel,Rain Jacket,5,88.18,551.12,0,completed
+ORD-10262,2024-06-13,South,Mobile App,New,Apparel,Running Shoes,4,100.18,500.9,0,refunded
+ORD-10927,2024-06-13,North,Mobile App,Returning,Home,Air Purifier,1,152.62,190.78,20,completed
+ORD-10189,2024-06-13,East,Mobile App,Returning,Apparel,Running Shoes,5,103.76,648.5,0,completed
+ORD-10801,2024-06-14,East,Mobile App,New,Electronics,Wireless Earbuds,5,73.55,459.69,0,refunded
+ORD-10306,2024-06-14,South,Marketplace,Returning,Home,Desk Lamp,4,31.82,159.1,0,completed
+ORD-10135,2024-06-15,North,Mobile App,VIP,Apparel,Running Shoes,3,111.56,418.35,0,completed
+ORD-10951,2024-06-15,North,Marketplace,Returning,Home,Air Purifier,2,155.53,388.82,0,completed
+ORD-11154,2024-06-15,West,Web,Returning,Home,Air Purifier,4,147.08,735.4,0,completed
+ORD-11104,2024-06-16,North,Mobile App,Returning,Home,Desk Lamp,1,36.26,45.32,15,completed
+ORD-10225,2024-06-16,South,Mobile App,Returning,Electronics,Bluetooth Speaker,1,60.25,75.31,0,completed
+ORD-10238,2024-06-17,South,Web,VIP,Home,Desk Lamp,5,33.36,208.5,0,completed
+ORD-11185,2024-06-17,West,Web,VIP,Apparel,Rain Jacket,2,97.0,242.5,5,completed
+ORD-10525,2024-06-18,South,Web,VIP,Home,Coffee Maker,2,85.87,214.68,5,completed
+ORD-10399,2024-06-18,South,Web,Returning,Electronics,Smartwatch,5,198.44,1240.25,20,completed
+ORD-10332,2024-06-18,East,Mobile App,Returning,Home,Desk Lamp,3,31.64,118.65,10,completed
+ORD-11059,2024-06-19,North,Mobile App,Returning,Electronics,Smartwatch,4,202.98,1014.9,5,refunded
+ORD-10087,2024-06-19,North,Web,VIP,Beauty,Hair Dryer,3,62.92,235.95,10,completed
+ORD-11033,2024-06-20,South,Marketplace,Returning,Apparel,Running Shoes,2,108.01,270.03,20,completed
+ORD-10748,2024-06-20,East,Marketplace,New,Home,Desk Lamp,2,33.13,82.82,0,completed
+ORD-10747,2024-06-20,West,Web,Returning,Home,Air Purifier,1,153.69,192.11,5,completed
+ORD-10446,2024-06-20,West,Marketplace,New,Electronics,Smartwatch,3,199.37,747.64,0,completed
+ORD-10798,2024-06-21,South,Mobile App,VIP,Home,Air Purifier,4,143.38,716.9,20,completed
+ORD-10367,2024-06-21,North,Mobile App,New,Electronics,Wireless Earbuds,1,78.77,98.46,20,refunded
+ORD-10987,2024-06-21,East,Web,VIP,Home,Air Purifier,4,144.53,722.65,0,completed
+ORD-10308,2024-06-21,West,Web,VIP,Electronics,Wireless Earbuds,2,78.21,195.52,10,completed
+ORD-11013,2024-06-21,West,Marketplace,Returning,Home,Coffee Maker,5,80.67,504.19,10,refunded
+ORD-10553,2024-06-22,South,Web,Returning,Electronics,Bluetooth Speaker,3,57.7,216.38,0,refunded
+ORD-10337,2024-06-22,West,Mobile App,Returning,Electronics,Smartwatch,4,205.46,1027.3,0,completed
+ORD-10967,2024-06-22,West,Web,Returning,Electronics,Bluetooth Speaker,2,54.5,136.25,5,completed
+ORD-11176,2024-06-22,North,Web,New,Apparel,Rain Jacket,5,94.22,588.88,5,completed
+ORD-10524,2024-06-23,North,Mobile App,New,Home,Desk Lamp,5,34.16,213.5,0,completed
+ORD-10166,2024-06-24,South,Mobile App,Returning,Electronics,Bluetooth Speaker,2,53.95,134.88,15,completed
+ORD-10320,2024-06-24,North,Mobile App,Returning,Electronics,Bluetooth Speaker,5,53.21,332.56,10,completed
+ORD-10594,2024-06-24,South,Mobile App,Returning,Beauty,Hair Dryer,3,58.93,220.99,15,completed
+ORD-10402,2024-06-24,West,Mobile App,Returning,Electronics,Wireless Earbuds,5,77.3,483.12,0,completed
+ORD-10606,2024-06-25,South,Mobile App,Returning,Apparel,Wool Sweater,4,64.5,322.5,0,completed
+ORD-10065,2024-06-27,East,Marketplace,Returning,Apparel,Rain Jacket,3,91.86,344.48,0,completed
+ORD-10645,2024-06-28,South,Web,VIP,Electronics,Wireless Earbuds,2,80.06,200.15,10,completed
+ORD-10631,2024-06-28,South,Mobile App,New,Home,Desk Lamp,2,36.57,91.42,20,cancelled
+ORD-11094,2024-06-28,West,Marketplace,New,Apparel,Wool Sweater,3,65.3,244.87,15,completed
+ORD-10253,2024-06-29,East,Web,Returning,Beauty,Face Serum,5,40.88,255.5,0,completed
+ORD-10076,2024-06-29,South,Web,Returning,Beauty,Face Serum,3,39.93,149.74,0,completed
+ORD-11144,2024-06-30,South,Web,Returning,Apparel,Wool Sweater,2,67.98,169.95,0,completed
+ORD-10293,2024-06-30,North,Marketplace,New,Electronics,Wireless Earbuds,5,76.93,480.81,20,completed
+ORD-11029,2024-07-01,North,Web,Returning,Home,Coffee Maker,3,92.18,336.41,0,completed
+ORD-10168,2024-07-01,North,Web,Returning,Electronics,Bluetooth Speaker,1,53.78,65.42,0,completed
+ORD-10486,2024-07-01,South,Web,Returning,Apparel,Running Shoes,2,110.16,268.02,20,completed
+ORD-11068,2024-07-01,West,Marketplace,Returning,Electronics,Bluetooth Speaker,5,61.15,371.95,0,completed
+ORD-10737,2024-07-01,West,Web,Returning,Home,Air Purifier,5,150.3,914.2,0,completed
+ORD-10370,2024-07-02,South,Marketplace,Returning,Electronics,Smartwatch,4,205.75,1001.18,15,completed
+ORD-10198,2024-07-04,North,Mobile App,Returning,Apparel,Running Shoes,4,101.55,494.14,20,completed
+ORD-11175,2024-07-04,East,Mobile App,Returning,Home,Air Purifier,3,146.52,534.73,10,completed
+ORD-11141,2024-07-04,North,Web,Returning,Electronics,Smartwatch,3,194.89,711.25,0,cancelled
+ORD-10626,2024-07-04,North,Web,New,Home,Coffee Maker,5,91.92,559.11,0,completed
+ORD-11159,2024-07-05,West,Web,Returning,Beauty,Hair Dryer,5,60.52,368.11,0,completed
+ORD-10990,2024-07-06,East,Web,New,Electronics,Bluetooth Speaker,4,61.77,300.57,15,completed
+ORD-10196,2024-07-06,North,Marketplace,Returning,Electronics,Bluetooth Speaker,4,58.01,282.28,15,completed
+ORD-10267,2024-07-08,East,Marketplace,New,Apparel,Wool Sweater,1,71.02,86.4,0,completed
+ORD-10138,2024-07-09,East,Web,Returning,Home,Desk Lamp,2,35.58,86.57,10,completed
+ORD-10978,2024-07-10,East,Web,New,Beauty,Face Serum,4,40.91,199.07,15,completed
+ORD-10043,2024-07-12,East,Mobile App,New,Electronics,Smartwatch,1,192.45,234.12,10,completed
+ORD-10520,2024-07-14,South,Mobile App,New,Apparel,Wool Sweater,2,68.47,166.59,0,completed
+ORD-10997,2024-07-16,South,Web,Returning,Electronics,Wireless Earbuds,4,76.47,372.1,0,completed
+ORD-10764,2024-07-16,North,Marketplace,New,Home,Coffee Maker,1,80.88,98.39,20,completed
+ORD-10193,2024-07-16,East,Web,Returning,Electronics,Smartwatch,3,199.99,729.87,10,completed
+ORD-10300,2024-07-17,North,Marketplace,New,Home,Coffee Maker,3,92.68,338.24,20,completed
+ORD-10745,2024-07-18,West,Mobile App,Returning,Apparel,Rain Jacket,5,95.72,582.22,10,completed
+ORD-10052,2024-07-18,North,Mobile App,Returning,Apparel,Rain Jacket,1,94.74,115.25,20,completed
+ORD-11051,2024-07-18,North,Web,New,Electronics,Bluetooth Speaker,3,59.02,215.39,0,completed
+ORD-10200,2024-07-19,West,Mobile App,Returning,Apparel,Wool Sweater,1,71.0,86.37,0,completed
+ORD-10392,2024-07-19,West,Web,VIP,Apparel,Running Shoes,3,115.07,419.95,0,completed
+ORD-10629,2024-07-19,West,Web,VIP,Electronics,Wireless Earbuds,5,73.35,446.15,0,completed
+ORD-11137,2024-07-19,East,Mobile App,Returning,Electronics,Smartwatch,3,204.65,746.87,0,completed
+ORD-10062,2024-07-19,South,Web,New,Electronics,Bluetooth Speaker,5,55.26,336.12,5,completed
+ORD-10627,2024-07-20,South,Web,New,Home,Coffee Maker,1,89.08,108.37,15,completed
+ORD-11150,2024-07-21,West,Marketplace,Returning,Apparel,Running Shoes,3,103.12,376.34,5,cancelled
+ORD-10067,2024-07-21,West,Web,Returning,Beauty,Face Serum,2,38.95,94.77,10,completed
+ORD-10021,2024-07-21,North,Mobile App,New,Home,Air Purifier,4,150.69,733.26,0,completed
+ORD-10331,2024-07-21,South,Marketplace,Returning,Home,Air Purifier,2,140.25,341.23,15,completed
+ORD-11043,2024-07-22,North,Marketplace,Returning,Electronics,Wireless Earbuds,1,82.06,99.83,5,completed
+ORD-10908,2024-07-22,East,Web,Returning,Electronics,Wireless Earbuds,3,77.58,283.13,0,completed
+ORD-10575,2024-07-23,North,Web,New,Apparel,Rain Jacket,4,91.01,442.86,0,completed
+ORD-10497,2024-07-23,South,Marketplace,New,Apparel,Running Shoes,4,111.51,542.61,5,completed
+ORD-10373,2024-07-23,South,Mobile App,VIP,Beauty,Face Serum,2,38.83,94.47,20,completed
+ORD-10912,2024-07-24,West,Marketplace,New,Apparel,Running Shoes,3,113.28,413.42,5,completed
+ORD-10769,2024-07-24,East,Mobile App,VIP,Home,Coffee Maker,2,88.52,215.37,0,completed
+ORD-10633,2024-07-26,West,Web,New,Apparel,Running Shoes,3,105.86,386.34,10,completed
+ORD-10378,2024-07-26,South,Mobile App,Returning,Home,Coffee Maker,1,86.17,104.83,5,completed
+ORD-10187,2024-07-27,North,Web,Returning,Electronics,Wireless Earbuds,5,81.34,494.75,0,completed
+ORD-10757,2024-07-28,North,Web,New,Home,Air Purifier,2,140.32,341.4,5,completed
+ORD-11016,2024-07-29,South,Web,New,Electronics,Wireless Earbuds,3,74.07,270.32,10,completed
+ORD-11158,2024-07-29,South,Marketplace,New,Beauty,Face Serum,4,40.64,197.76,0,completed
+ORD-10613,2024-07-29,West,Mobile App,Returning,Home,Desk Lamp,5,36.17,220.01,0,completed
+ORD-10093,2024-07-30,East,Web,Returning,Electronics,Wireless Earbuds,1,82.53,100.4,5,completed
+ORD-11065,2024-07-31,North,Marketplace,Returning,Beauty,Hair Dryer,3,66.19,241.56,0,completed
+ORD-10808,2024-08-01,West,Web,Returning,Beauty,Face Serum,4,43.69,196.6,20,completed
+ORD-11172,2024-08-02,North,Mobile App,New,Apparel,Running Shoes,3,115.43,389.58,0,completed
+ORD-11093,2024-08-02,East,Web,New,Apparel,Wool Sweater,2,64.96,146.16,10,completed
+ORD-10551,2024-08-03,East,Mobile App,Returning,Beauty,Hair Dryer,3,63.89,215.63,5,completed
+ORD-10439,2024-08-05,North,Web,VIP,Electronics,Smartwatch,5,196.9,1107.56,10,completed
+ORD-11167,2024-08-06,West,Mobile App,New,Electronics,Wireless Earbuds,4,75.89,341.5,0,completed
+ORD-10956,2024-08-07,South,Web,New,Beauty,Face Serum,2,44.03,99.07,15,refunded
+ORD-10026,2024-08-08,East,Marketplace,Returning,Apparel,Wool Sweater,1,65.8,74.02,10,completed
+ORD-10584,2024-08-09,West,Mobile App,New,Electronics,Wireless Earbuds,1,81.94,92.18,0,completed
+ORD-10941,2024-08-09,East,Marketplace,New,Electronics,Smartwatch,4,184.64,830.88,5,completed
+ORD-11130,2024-08-10,West,Web,Returning,Beauty,Hair Dryer,5,65.63,369.17,20,completed
+ORD-10163,2024-08-10,West,Web,Returning,Electronics,Smartwatch,2,200.44,450.99,0,completed
+ORD-10686,2024-08-10,North,Mobile App,Returning,Home,Desk Lamp,2,33.33,74.99,10,completed
+ORD-10143,2024-08-11,North,Mobile App,New,Electronics,Smartwatch,5,181.0,1018.12,0,refunded
+ORD-10961,2024-08-11,West,Mobile App,New,Apparel,Rain Jacket,1,87.35,98.27,5,completed
+ORD-10162,2024-08-11,East,Web,VIP,Electronics,Smartwatch,5,183.36,1031.4,5,completed
+ORD-10372,2024-08-12,North,Web,New,Electronics,Wireless Earbuds,5,81.23,456.92,15,completed
+ORD-10064,2024-08-12,East,Web,New,Home,Coffee Maker,5,85.09,478.63,0,completed
+ORD-10906,2024-08-13,North,Mobile App,VIP,Apparel,Running Shoes,3,112.41,379.38,10,completed
+ORD-10959,2024-08-13,South,Mobile App,VIP,Beauty,Hair Dryer,1,62.36,70.16,0,completed
+ORD-10495,2024-08-13,East,Mobile App,New,Home,Coffee Maker,4,91.0,409.5,20,completed
+ORD-11042,2024-08-15,South,Marketplace,New,Home,Desk Lamp,3,32.21,108.71,0,completed
+ORD-11190,2024-08-15,East,Web,Returning,Apparel,Running Shoes,1,100.33,112.87,0,completed
+ORD-10571,2024-08-15,South,Web,Returning,Apparel,Running Shoes,4,101.32,455.94,15,completed
+ORD-10247,2024-08-15,South,Web,Returning,Apparel,Rain Jacket,4,96.93,436.19,10,completed
+ORD-10623,2024-08-16,West,Marketplace,New,Apparel,Rain Jacket,2,97.41,219.17,0,completed
+ORD-10164,2024-08-16,West,Marketplace,New,Beauty,Face Serum,5,41.59,233.94,0,completed
+ORD-10424,2024-08-16,North,Web,New,Apparel,Rain Jacket,3,87.7,295.99,0,completed
+ORD-10971,2024-08-16,East,Web,VIP,Home,Air Purifier,2,137.34,309.02,0,completed
+ORD-10731,2024-08-16,East,Mobile App,VIP,Home,Air Purifier,5,154.37,868.33,10,completed
+ORD-10928,2024-08-16,West,Web,New,Electronics,Smartwatch,3,183.24,618.44,20,completed
+ORD-11078,2024-08-16,North,Web,VIP,Beauty,Hair Dryer,4,60.02,270.09,0,completed
+ORD-10274,2024-08-16,South,Mobile App,New,Apparel,Rain Jacket,1,95.53,107.47,15,completed
+ORD-11184,2024-08-17,North,Mobile App,New,Electronics,Bluetooth Speaker,1,61.23,68.88,0,completed
+ORD-10463,2024-08-17,North,Mobile App,New,Apparel,Rain Jacket,3,89.61,302.43,0,completed
+ORD-10776,2024-08-19,South,Mobile App,New,Apparel,Running Shoes,3,110.62,373.34,5,completed
+ORD-11058,2024-08-20,South,Mobile App,New,Home,Coffee Maker,2,85.37,192.08,15,completed
+ORD-10499,2024-08-20,West,Web,New,Electronics,Smartwatch,5,204.6,1150.88,10,completed
+ORD-10953,2024-08-22,North,Web,New,Home,Coffee Maker,2,89.64,201.69,0,completed
+ORD-10546,2024-08-22,South,Web,New,Apparel,Rain Jacket,3,92.34,311.65,0,completed
+ORD-10794,2024-08-23,East,Web,Returning,Apparel,Rain Jacket,5,93.51,525.99,15,completed
+ORD-10993,2024-08-23,East,Web,Returning,Home,Desk Lamp,5,33.2,186.75,10,completed
+ORD-11152,2024-08-23,East,Marketplace,VIP,Beauty,Hair Dryer,1,62.77,70.62,0,completed
+ORD-10472,2024-08-24,North,Web,New,Home,Desk Lamp,2,34.4,77.4,15,completed
+ORD-10004,2024-08-24,West,Mobile App,Returning,Beauty,Hair Dryer,4,59.32,266.94,20,cancelled
+ORD-10237,2024-08-24,North,Mobile App,Returning,Beauty,Hair Dryer,3,61.28,206.82,20,completed
+ORD-10632,2024-08-25,East,Web,New,Electronics,Smartwatch,2,196.98,443.2,0,completed
+ORD-10353,2024-08-25,East,Mobile App,Returning,Electronics,Smartwatch,4,188.92,850.14,15,completed
+ORD-10620,2024-08-25,West,Marketplace,New,Electronics,Wireless Earbuds,5,78.47,441.39,5,completed
+ORD-10406,2024-08-25,West,Mobile App,Returning,Beauty,Face Serum,4,41.05,184.72,0,completed
+ORD-10434,2024-08-25,East,Mobile App,New,Home,Coffee Maker,2,81.11,182.5,0,completed
+ORD-11099,2024-08-25,North,Mobile App,Returning,Apparel,Running Shoes,5,113.94,640.91,0,completed
+ORD-10154,2024-08-25,West,Mobile App,Returning,Apparel,Running Shoes,2,102.07,229.66,0,completed
+ORD-11038,2024-08-26,South,Marketplace,Returning,Electronics,Smartwatch,2,190.41,428.42,15,completed
+ORD-10090,2024-08-26,North,Web,Returning,Electronics,Smartwatch,5,205.21,1154.31,0,completed
+ORD-10139,2024-08-26,West,Web,New,Home,Desk Lamp,2,33.48,75.33,10,completed
+ORD-10755,2024-08-27,North,Web,New,Electronics,Bluetooth Speaker,3,56.14,189.47,10,cancelled
+ORD-10081,2024-08-27,South,Web,VIP,Electronics,Wireless Earbuds,5,72.45,407.53,20,completed
+ORD-10003,2024-08-28,East,Web,New,Apparel,Rain Jacket,4,96.13,432.58,15,completed
+ORD-10120,2024-08-28,West,Web,New,Home,Coffee Maker,5,82.27,462.77,15,completed
+ORD-10297,2024-08-28,South,Marketplace,New,Electronics,Wireless Earbuds,2,76.99,173.23,0,completed
+ORD-10284,2024-08-29,West,Web,VIP,Electronics,Wireless Earbuds,3,73.36,247.59,0,completed
+ORD-10799,2024-08-29,East,Marketplace,Returning,Home,Coffee Maker,4,83.75,376.88,0,completed
+ORD-10934,2024-08-30,West,Mobile App,New,Electronics,Wireless Earbuds,4,76.99,346.46,20,completed
+ORD-10029,2024-08-30,North,Mobile App,Returning,Apparel,Wool Sweater,3,66.97,226.02,5,completed
+ORD-10046,2024-08-31,West,Marketplace,New,Electronics,Smartwatch,5,192.86,1084.84,5,completed
+ORD-10688,2024-08-31,South,Web,Returning,Home,Desk Lamp,5,34.73,195.36,15,completed
+ORD-10922,2024-09-01,South,Marketplace,Returning,Beauty,Hair Dryer,4,61.87,247.48,0,completed
+ORD-10868,2024-09-01,North,Web,Returning,Apparel,Wool Sweater,4,69.51,278.04,20,cancelled
+ORD-10266,2024-09-01,North,Web,Returning,Beauty,Hair Dryer,3,60.34,181.02,15,completed
+ORD-10185,2024-09-01,West,Marketplace,Returning,Home,Coffee Maker,1,81.18,81.18,0,completed
+ORD-10218,2024-09-01,North,Mobile App,New,Apparel,Rain Jacket,4,89.5,358.0,0,completed
+ORD-10882,2024-09-02,South,Web,Returning,Home,Desk Lamp,2,35.24,70.48,0,completed
+ORD-11056,2024-09-02,East,Mobile App,Returning,Electronics,Wireless Earbuds,3,74.57,223.71,10,completed
+ORD-11091,2024-09-02,South,Mobile App,Returning,Beauty,Face Serum,3,42.62,127.86,5,cancelled
+ORD-11183,2024-09-02,North,Web,New,Electronics,Bluetooth Speaker,5,57.39,286.95,5,completed
+ORD-10213,2024-09-02,North,Mobile App,New,Home,Coffee Maker,5,87.98,439.9,10,completed
+ORD-10019,2024-09-03,East,Web,New,Electronics,Wireless Earbuds,5,73.88,369.4,0,completed
+ORD-10030,2024-09-03,West,Web,Returning,Beauty,Face Serum,2,42.78,85.56,5,completed
+ORD-10832,2024-09-04,North,Marketplace,Returning,Electronics,Bluetooth Speaker,3,56.76,170.28,15,completed
+ORD-10505,2024-09-05,South,Marketplace,New,Apparel,Rain Jacket,5,93.58,467.9,20,completed
+ORD-10791,2024-09-05,West,Web,New,Apparel,Wool Sweater,3,66.41,199.23,5,completed
+ORD-10536,2024-09-06,East,Web,New,Home,Desk Lamp,4,32.7,130.8,15,completed
+ORD-10870,2024-09-06,South,Mobile App,New,Beauty,Face Serum,2,40.13,80.26,0,completed
+ORD-10221,2024-09-06,North,Web,VIP,Home,Air Purifier,3,152.25,456.75,20,completed
+ORD-10204,2024-09-07,South,Mobile App,VIP,Electronics,Wireless Earbuds,4,82.1,328.4,15,completed
+ORD-10915,2024-09-07,West,Mobile App,Returning,Electronics,Bluetooth Speaker,3,55.8,167.4,0,cancelled
+ORD-10797,2024-09-07,South,Web,New,Beauty,Face Serum,4,42.7,170.8,5,completed
+ORD-10334,2024-09-08,East,Web,Returning,Apparel,Running Shoes,4,105.05,420.2,10,completed
+ORD-10646,2024-09-08,North,Web,Returning,Apparel,Running Shoes,4,104.78,419.12,20,completed
+ORD-10113,2024-09-08,West,Web,Returning,Beauty,Face Serum,4,41.94,167.76,0,refunded
+ORD-10904,2024-09-08,West,Mobile App,Returning,Apparel,Running Shoes,2,105.18,210.36,15,completed
+ORD-10938,2024-09-09,North,Web,New,Apparel,Wool Sweater,2,68.23,136.46,15,completed
+ORD-10175,2024-09-09,North,Web,New,Beauty,Face Serum,5,38.05,190.25,0,completed
+ORD-10230,2024-09-10,South,Web,Returning,Apparel,Wool Sweater,2,67.61,135.22,15,completed
+ORD-10072,2024-09-10,West,Marketplace,Returning,Beauty,Hair Dryer,1,66.45,66.45,0,completed
+ORD-10611,2024-09-10,East,Mobile App,Returning,Apparel,Wool Sweater,3,66.44,199.32,0,completed
+ORD-10484,2024-09-10,West,Mobile App,Returning,Beauty,Hair Dryer,5,65.32,326.6,10,completed
+ORD-10709,2024-09-11,North,Mobile App,New,Beauty,Hair Dryer,5,65.66,328.3,10,completed
+ORD-10276,2024-09-12,East,Web,New,Home,Desk Lamp,2,34.04,68.08,0,completed
+ORD-11074,2024-09-12,South,Web,Returning,Apparel,Wool Sweater,4,63.31,253.24,0,completed
+ORD-10053,2024-09-12,East,Web,Returning,Electronics,Smartwatch,1,202.47,202.47,15,refunded
+ORD-10473,2024-09-12,South,Web,Returning,Beauty,Hair Dryer,3,62.49,187.47,5,completed
+ORD-10069,2024-09-13,West,Web,Returning,Home,Air Purifier,4,144.12,576.48,10,completed
+ORD-10366,2024-09-13,West,Web,Returning,Beauty,Hair Dryer,4,65.27,261.08,0,completed
+ORD-11101,2024-09-13,East,Web,Returning,Beauty,Face Serum,1,41.95,41.95,20,completed
+ORD-10123,2024-09-14,North,Mobile App,New,Beauty,Hair Dryer,4,62.93,251.72,0,completed
+ORD-10108,2024-09-14,West,Mobile App,Returning,Home,Coffee Maker,4,82.59,330.36,0,cancelled
+ORD-10289,2024-09-15,East,Marketplace,Returning,Apparel,Wool Sweater,3,67.55,202.65,10,completed
+ORD-10973,2024-09-16,North,Mobile App,New,Apparel,Wool Sweater,1,65.07,65.07,0,refunded
+ORD-10943,2024-09-16,West,Mobile App,VIP,Electronics,Smartwatch,3,197.26,591.78,0,completed
+ORD-10075,2024-09-17,North,Web,New,Home,Coffee Maker,4,92.21,368.84,15,completed
+ORD-10708,2024-09-17,East,Web,New,Electronics,Bluetooth Speaker,3,56.99,170.97,0,completed
+ORD-10518,2024-09-17,East,Marketplace,New,Electronics,Wireless Earbuds,4,77.54,310.16,5,completed
+ORD-10621,2024-09-18,North,Marketplace,New,Electronics,Smartwatch,5,187.38,936.9,0,refunded
+ORD-10784,2024-09-18,South,Web,New,Beauty,Face Serum,3,41.11,123.33,0,completed
+ORD-10972,2024-09-18,West,Marketplace,New,Home,Coffee Maker,3,87.07,261.21,0,completed
+ORD-11100,2024-09-19,East,Marketplace,New,Beauty,Hair Dryer,5,61.38,306.9,10,completed
+ORD-10767,2024-09-19,South,Mobile App,Returning,Electronics,Wireless Earbuds,2,75.09,150.18,0,completed
+ORD-10275,2024-09-20,East,Marketplace,Returning,Beauty,Hair Dryer,2,66.49,132.98,0,completed
+ORD-11145,2024-09-20,North,Marketplace,Returning,Apparel,Running Shoes,1,103.21,103.21,0,completed
+ORD-10643,2024-09-20,South,Marketplace,Returning,Electronics,Wireless Earbuds,5,73.19,365.95,10,completed
+ORD-11030,2024-09-23,West,Web,Returning,Home,Air Purifier,2,145.52,291.04,5,completed
+ORD-10281,2024-09-23,East,Web,Returning,Apparel,Running Shoes,3,99.55,298.65,0,completed
+ORD-10443,2024-09-24,North,Mobile App,New,Apparel,Running Shoes,5,105.01,525.05,0,completed
+ORD-10650,2024-09-24,North,Web,Returning,Electronics,Smartwatch,2,187.98,375.96,0,completed
+ORD-10728,2024-09-24,West,Mobile App,New,Electronics,Wireless Earbuds,1,79.51,79.51,20,completed
+ORD-10283,2024-09-25,North,Mobile App,Returning,Home,Coffee Maker,3,81.36,244.08,0,completed
+ORD-11115,2024-09-25,South,Mobile App,New,Apparel,Rain Jacket,1,89.32,89.32,0,cancelled
+ORD-10717,2024-09-26,East,Web,VIP,Electronics,Smartwatch,4,203.03,812.12,0,completed
+ORD-11119,2024-09-26,South,Web,Returning,Apparel,Running Shoes,5,106.98,534.9,0,completed
+ORD-10234,2024-09-26,East,Web,Returning,Apparel,Running Shoes,1,101.71,101.71,5,completed
+ORD-10562,2024-09-26,West,Mobile App,Returning,Apparel,Rain Jacket,3,98.39,295.17,10,completed
+ORD-10251,2024-09-27,West,Web,New,Electronics,Wireless Earbuds,1,77.65,77.65,0,cancelled
+ORD-10202,2024-09-27,North,Marketplace,Returning,Beauty,Hair Dryer,4,67.44,269.76,10,completed
+ORD-11017,2024-09-27,North,Web,Returning,Home,Coffee Maker,5,86.14,430.7,0,completed
+ORD-10184,2024-09-28,West,Mobile App,Returning,Beauty,Hair Dryer,1,59.06,59.06,0,completed
+ORD-11161,2024-09-29,North,Web,VIP,Electronics,Bluetooth Speaker,4,55.58,222.32,5,completed
+ORD-10054,2024-09-29,West,Marketplace,Returning,Beauty,Hair Dryer,1,64.49,64.49,5,completed
+ORD-10182,2024-09-29,North,Web,Returning,Home,Air Purifier,1,145.09,145.09,5,completed
+ORD-10452,2024-09-30,North,Web,New,Electronics,Bluetooth Speaker,4,53.11,212.44,15,completed
+ORD-10020,2024-09-30,North,Web,Returning,Apparel,Wool Sweater,3,67.13,201.39,15,completed
+ORD-10404,2024-09-30,East,Mobile App,VIP,Apparel,Wool Sweater,3,72.22,216.66,20,completed
+ORD-10405,2024-09-30,South,Mobile App,Returning,Home,Desk Lamp,3,35.77,107.31,0,completed
+ORD-11052,2024-10-01,North,Mobile App,Returning,Electronics,Wireless Earbuds,2,77.58,135.76,15,completed
+ORD-10179,2024-10-01,North,Mobile App,Returning,Beauty,Face Serum,4,41.0,143.5,10,completed
+ORD-10666,2024-10-02,South,Mobile App,New,Electronics,Smartwatch,1,185.4,162.22,0,completed
+ORD-11007,2024-10-02,West,Web,New,Electronics,Smartwatch,5,183.65,803.47,5,completed
+ORD-11090,2024-10-02,South,Web,New,Apparel,Running Shoes,4,100.67,352.34,0,completed
+ORD-10875,2024-10-02,North,Mobile App,Returning,Home,Air Purifier,2,143.32,250.81,5,completed
+ORD-10555,2024-10-02,East,Mobile App,Returning,Electronics,Wireless Earbuds,5,80.57,352.49,0,completed
+ORD-11151,2024-10-03,West,Web,New,Electronics,Wireless Earbuds,5,77.47,338.93,10,completed
+ORD-10114,2024-10-03,North,Web,Returning,Apparel,Wool Sweater,4,67.74,237.09,0,completed
+ORD-10628,2024-10-03,West,Marketplace,New,Beauty,Face Serum,1,41.85,36.62,20,completed
+ORD-10158,2024-10-03,South,Mobile App,Returning,Electronics,Wireless Earbuds,5,81.95,358.53,5,completed
+ORD-10419,2024-10-03,East,Web,Returning,Home,Desk Lamp,2,35.96,62.93,10,completed
+ORD-11050,2024-10-05,South,Web,Returning,Electronics,Smartwatch,1,207.45,181.52,15,cancelled
+ORD-10896,2024-10-05,East,Marketplace,New,Beauty,Face Serum,1,39.76,34.79,5,completed
+ORD-10444,2024-10-05,North,Mobile App,VIP,Electronics,Smartwatch,2,205.34,359.34,0,completed
+ORD-10939,2024-10-05,West,Mobile App,New,Home,Desk Lamp,1,31.99,27.99,0,completed
+ORD-10016,2024-10-07,East,Web,Returning,Apparel,Running Shoes,5,114.64,501.55,0,cancelled
+ORD-10999,2024-10-07,East,Marketplace,Returning,Electronics,Bluetooth Speaker,3,54.7,143.59,0,completed
+ORD-10343,2024-10-08,South,Marketplace,Returning,Home,Desk Lamp,3,32.04,84.1,0,completed
+ORD-10607,2024-10-08,East,Marketplace,New,Home,Desk Lamp,5,32.79,143.46,15,completed
+ORD-10802,2024-10-09,West,Mobile App,New,Beauty,Face Serum,1,39.77,34.8,0,completed
+ORD-10548,2024-10-09,West,Web,Returning,Home,Desk Lamp,2,32.1,56.18,15,completed
+ORD-11164,2024-10-09,West,Web,Returning,Electronics,Smartwatch,4,198.17,693.59,0,completed
+ORD-10365,2024-10-10,East,Web,Returning,Home,Desk Lamp,1,33.23,29.08,20,completed
+ORD-10716,2024-10-10,West,Web,Returning,Home,Desk Lamp,3,35.33,92.74,15,completed
+ORD-10700,2024-10-11,South,Mobile App,Returning,Electronics,Wireless Earbuds,5,81.57,356.87,10,completed
+ORD-11009,2024-10-11,North,Web,VIP,Home,Coffee Maker,2,88.27,154.47,15,completed
+ORD-10295,2024-10-11,South,Web,New,Beauty,Hair Dryer,1,67.92,59.43,0,completed
+ORD-11014,2024-10-11,South,Mobile App,Returning,Apparel,Rain Jacket,3,93.55,245.57,0,completed
+ORD-10448,2024-10-11,South,Web,Returning,Beauty,Face Serum,5,39.87,174.43,5,completed
+ORD-10892,2024-10-12,South,Marketplace,Returning,Apparel,Wool Sweater,5,68.42,299.34,5,completed
+ORD-10711,2024-10-12,South,Web,New,Beauty,Hair Dryer,4,65.89,230.62,20,completed
+ORD-10678,2024-10-13,South,Web,Returning,Beauty,Hair Dryer,1,61.21,53.56,0,completed
+ORD-10577,2024-10-13,North,Web,VIP,Home,Desk Lamp,2,32.85,57.49,5,cancelled
+ORD-11073,2024-10-14,West,Mobile App,Returning,Electronics,Bluetooth Speaker,2,54.65,95.64,15,completed
+ORD-11194,2024-10-14,South,Marketplace,Returning,Beauty,Face Serum,1,39.56,34.62,15,completed
+ORD-10996,2024-10-14,South,Mobile App,New,Electronics,Bluetooth Speaker,5,53.94,235.99,20,completed
+ORD-10010,2024-10-14,East,Web,Returning,Home,Coffee Maker,2,84.01,147.02,15,completed
+ORD-10994,2024-10-16,West,Mobile App,Returning,Apparel,Rain Jacket,3,88.89,233.34,0,completed
+ORD-11146,2024-10-17,West,Web,Returning,Apparel,Wool Sweater,2,63.33,110.83,20,completed
+ORD-10487,2024-10-17,South,Web,New,Apparel,Wool Sweater,5,70.83,309.88,5,completed
+ORD-10506,2024-10-17,North,Mobile App,Returning,Electronics,Wireless Earbuds,2,76.98,134.72,15,completed
+ORD-11163,2024-10-17,West,Marketplace,New,Electronics,Wireless Earbuds,2,75.8,132.65,5,completed
+ORD-10350,2024-10-18,North,Web,Returning,Home,Coffee Maker,1,80.54,70.47,10,completed
+ORD-10655,2024-10-18,West,Web,New,Beauty,Face Serum,1,38.32,33.53,10,cancelled
+ORD-10746,2024-10-18,East,Mobile App,New,Home,Air Purifier,1,139.69,122.23,0,completed
+ORD-10647,2024-10-19,East,Web,New,Electronics,Wireless Earbuds,3,75.71,198.74,0,completed
+ORD-10605,2024-10-20,West,Mobile App,Returning,Electronics,Bluetooth Speaker,2,53.14,93.0,15,completed
+ORD-10560,2024-10-20,East,Web,Returning,Electronics,Smartwatch,4,200.33,701.16,10,completed
+ORD-10930,2024-10-21,South,Web,New,Electronics,Wireless Earbuds,5,77.4,338.62,10,completed
+ORD-10876,2024-10-22,South,Web,Returning,Home,Desk Lamp,3,31.51,82.71,10,completed
+ORD-11139,2024-10-22,North,Mobile App,Returning,Apparel,Rain Jacket,1,96.84,84.74,0,completed
+ORD-10538,2024-10-22,North,Mobile App,Returning,Electronics,Bluetooth Speaker,2,54.47,95.32,0,completed
+ORD-10304,2024-10-23,North,Mobile App,Returning,Beauty,Hair Dryer,1,65.51,57.32,0,completed
+ORD-10926,2024-10-23,South,Marketplace,Returning,Home,Air Purifier,3,146.09,383.49,0,completed
+ORD-10288,2024-10-23,South,Mobile App,Returning,Electronics,Wireless Earbuds,1,72.17,63.15,5,completed
+ORD-10788,2024-10-24,West,Mobile App,New,Beauty,Face Serum,5,40.0,175.0,15,completed
+ORD-10916,2024-10-24,East,Mobile App,Returning,Electronics,Smartwatch,1,194.58,170.26,10,completed
+ORD-10056,2024-10-25,North,Web,Returning,Beauty,Hair Dryer,5,64.52,282.27,0,cancelled
+ORD-10028,2024-10-25,East,Marketplace,New,Home,Desk Lamp,5,34.66,151.64,15,refunded
+ORD-10294,2024-10-25,North,Mobile App,New,Apparel,Rain Jacket,3,92.44,242.66,0,completed
+ORD-10806,2024-10-25,West,Web,VIP,Beauty,Face Serum,3,42.0,110.25,10,completed
+ORD-10228,2024-10-26,North,Web,Returning,Beauty,Hair Dryer,4,64.82,226.87,20,completed
+ORD-10878,2024-10-26,South,Mobile App,Returning,Home,Desk Lamp,4,31.6,110.6,15,completed
+ORD-10982,2024-10-26,North,Mobile App,New,Home,Air Purifier,5,147.09,643.52,20,completed
+ORD-10330,2024-10-26,West,Web,New,Electronics,Bluetooth Speaker,2,61.46,107.56,0,completed
+ORD-10991,2024-10-27,East,Mobile App,VIP,Electronics,Wireless Earbuds,1,76.11,66.6,0,completed
+ORD-10654,2024-10-29,North,Web,Returning,Electronics,Smartwatch,2,188.58,330.02,15,completed
+ORD-10761,2024-10-29,North,Mobile App,Returning,Home,Desk Lamp,1,33.22,29.07,0,completed
+ORD-10131,2024-10-29,West,Marketplace,Returning,Electronics,Bluetooth Speaker,4,61.07,213.74,5,completed
+ORD-10033,2024-10-30,West,Web,Returning,Home,Desk Lamp,2,32.71,57.24,5,completed
+ORD-10455,2024-10-30,West,Marketplace,New,Apparel,Rain Jacket,2,96.65,169.14,15,completed
+ORD-10329,2024-10-30,East,Web,VIP,Apparel,Wool Sweater,4,65.34,228.69,0,completed
+ORD-10307,2024-10-30,North,Marketplace,Returning,Electronics,Bluetooth Speaker,5,53.33,233.32,0,completed
+ORD-10754,2024-10-30,North,Web,Returning,Beauty,Face Serum,3,40.73,106.92,0,completed
+ORD-10112,2024-10-30,North,Mobile App,New,Apparel,Wool Sweater,1,70.47,61.66,0,completed
+ORD-11128,2024-10-31,South,Mobile App,Returning,Electronics,Wireless Earbuds,1,80.56,70.49,0,completed
+ORD-11083,2024-10-31,South,Mobile App,Returning,Electronics,Wireless Earbuds,2,74.77,130.85,5,completed
+ORD-10157,2024-10-31,South,Web,VIP,Beauty,Hair Dryer,2,59.05,103.34,20,completed
+ORD-10133,2024-11-01,South,Web,Returning,Home,Desk Lamp,5,31.73,124.3,0,cancelled
+ORD-11002,2024-11-01,North,Web,Returning,Apparel,Running Shoes,3,113.06,265.75,0,completed
+ORD-10078,2024-11-04,South,Mobile App,New,Electronics,Smartwatch,4,197.27,618.24,0,completed
+ORD-10705,2024-11-05,East,Marketplace,Returning,Beauty,Hair Dryer,5,59.99,235.01,10,completed
+ORD-11188,2024-11-05,South,Marketplace,Returning,Beauty,Face Serum,5,38.24,149.8,0,completed
+ORD-11028,2024-11-05,North,Mobile App,New,Electronics,Bluetooth Speaker,1,57.35,44.93,20,completed
+ORD-10130,2024-11-05,North,Web,Returning,Electronics,Bluetooth Speaker,1,56.88,44.57,15,completed
+ORD-10979,2024-11-05,East,Mobile App,New,Beauty,Face Serum,1,41.91,32.84,0,completed
+ORD-10125,2024-11-05,East,Marketplace,New,Electronics,Bluetooth Speaker,1,54.81,42.94,0,completed
+ORD-10436,2024-11-06,South,Marketplace,New,Home,Desk Lamp,3,33.23,78.11,0,completed
+ORD-10115,2024-11-07,East,Marketplace,Returning,Electronics,Wireless Earbuds,1,78.59,61.57,0,completed
+ORD-10569,2024-11-08,West,Mobile App,New,Electronics,Bluetooth Speaker,2,55.81,87.45,0,completed
+ORD-10287,2024-11-08,North,Web,New,Electronics,Wireless Earbuds,2,76.09,119.23,5,completed
+ORD-10977,2024-11-09,North,Marketplace,New,Apparel,Running Shoes,1,101.3,79.37,0,completed
+ORD-10921,2024-11-09,South,Web,New,Home,Desk Lamp,3,36.05,84.73,0,completed
+ORD-10707,2024-11-09,North,Web,Returning,Apparel,Wool Sweater,1,70.04,54.88,20,completed
+ORD-10128,2024-11-10,West,Marketplace,Returning,Home,Coffee Maker,1,89.3,69.97,0,completed
+ORD-10534,2024-11-11,West,Web,New,Beauty,Hair Dryer,4,65.37,204.87,5,completed
+ORD-10596,2024-11-12,North,Mobile App,New,Electronics,Smartwatch,5,205.05,803.28,0,completed
+ORD-10929,2024-11-12,West,Web,New,Electronics,Smartwatch,3,206.26,484.81,10,completed
+ORD-10227,2024-11-12,North,Mobile App,Returning,Electronics,Smartwatch,1,184.92,144.88,20,cancelled
+ORD-10423,2024-11-13,West,Web,Returning,Home,Air Purifier,5,143.1,560.59,15,completed
+ORD-10265,2024-11-13,North,Mobile App,New,Beauty,Hair Dryer,4,60.72,190.29,0,completed
+ORD-10676,2024-11-13,North,Mobile App,New,Electronics,Wireless Earbuds,2,74.92,117.4,5,completed
+ORD-11160,2024-11-14,East,Mobile App,New,Electronics,Bluetooth Speaker,1,57.74,45.24,10,completed
+ORD-10241,2024-11-15,South,Mobile App,VIP,Apparel,Rain Jacket,1,93.52,73.27,10,refunded
+ORD-11117,2024-11-16,West,Mobile App,Returning,Apparel,Wool Sweater,2,72.08,112.95,20,completed
+ORD-10259,2024-11-17,West,Mobile App,New,Home,Coffee Maker,4,80.67,252.82,10,completed
+ORD-11155,2024-11-17,West,Web,VIP,Home,Coffee Maker,4,80.18,251.28,15,completed
+ORD-10785,2024-11-17,South,Mobile App,Returning,Electronics,Bluetooth Speaker,4,61.31,192.14,0,refunded
+ORD-10965,2024-11-17,West,Web,VIP,Home,Coffee Maker,3,81.31,191.12,0,completed
+ORD-10984,2024-11-17,North,Web,Returning,Apparel,Rain Jacket,3,90.8,213.42,0,completed
+ORD-10697,2024-11-18,East,Mobile App,New,Electronics,Bluetooth Speaker,3,53.52,125.8,15,completed
+ORD-10980,2024-11-18,East,Mobile App,New,Beauty,Face Serum,1,38.35,30.05,20,completed
+ORD-10914,2024-11-19,North,Mobile App,Returning,Beauty,Hair Dryer,5,62.36,244.29,10,completed
+ORD-10269,2024-11-19,North,Marketplace,Returning,Electronics,Bluetooth Speaker,5,54.34,212.88,10,completed
+ORD-10547,2024-11-19,East,Mobile App,Returning,Apparel,Wool Sweater,3,73.48,172.71,5,completed
+ORD-10687,2024-11-20,East,Web,New,Electronics,Bluetooth Speaker,4,61.53,192.83,0,completed
+ORD-10519,2024-11-21,North,Web,Returning,Beauty,Face Serum,2,42.62,66.78,20,completed
+ORD-10664,2024-11-22,East,Web,Returning,Home,Coffee Maker,1,83.31,65.27,0,completed
+ORD-10454,2024-11-22,South,Web,New,Electronics,Wireless Earbuds,2,82.84,129.81,20,completed
+ORD-10467,2024-11-22,South,Mobile App,VIP,Apparel,Rain Jacket,4,89.79,281.4,0,completed
+ORD-10719,2024-11-23,South,Web,New,Beauty,Face Serum,3,40.79,95.88,0,completed
+ORD-11187,2024-11-23,North,Marketplace,Returning,Apparel,Running Shoes,3,101.21,237.89,10,completed
+ORD-10530,2024-11-23,South,Marketplace,Returning,Beauty,Face Serum,3,38.11,89.58,0,completed
+ORD-10393,2024-11-23,North,Web,Returning,Electronics,Wireless Earbuds,1,71.44,55.97,0,completed
+ORD-11047,2024-11-24,North,Mobile App,New,Apparel,Running Shoes,4,103.37,323.96,20,completed
+ORD-10136,2024-11-25,North,Web,New,Electronics,Smartwatch,5,204.27,800.22,15,completed
+ORD-10493,2024-11-25,West,Marketplace,Returning,Electronics,Smartwatch,4,197.31,618.36,15,completed
+ORD-10966,2024-11-25,South,Web,New,Electronics,Bluetooth Speaker,2,57.51,90.12,0,completed
+ORD-10624,2024-11-26,South,Marketplace,Returning,Electronics,Bluetooth Speaker,2,59.02,92.48,20,completed
+ORD-10849,2024-11-27,West,Web,Returning,Electronics,Bluetooth Speaker,5,55.61,217.85,0,completed
+ORD-10489,2024-11-27,West,Web,New,Home,Desk Lamp,2,34.12,53.47,20,completed
+ORD-10192,2024-11-28,East,Mobile App,Returning,Electronics,Wireless Earbuds,5,77.66,304.23,5,completed
+ORD-11180,2024-11-28,North,Marketplace,Returning,Electronics,Bluetooth Speaker,4,59.52,186.53,0,completed
+ORD-10895,2024-11-30,East,Mobile App,Returning,Apparel,Rain Jacket,1,94.34,73.91,0,completed
+ORD-10955,2024-11-30,North,Mobile App,VIP,Apparel,Running Shoes,3,108.79,255.71,15,completed
+ORD-11134,2024-12-01,South,Web,Returning,Beauty,Hair Dryer,5,63.47,238.01,0,cancelled
+ORD-10268,2024-12-01,West,Mobile App,Returning,Electronics,Wireless Earbuds,1,82.38,61.78,0,completed
+ORD-10766,2024-12-01,South,Mobile App,New,Electronics,Wireless Earbuds,2,77.17,115.76,0,completed
+ORD-10322,2024-12-02,West,Web,Returning,Apparel,Rain Jacket,4,95.58,286.74,0,completed
+ORD-10671,2024-12-02,North,Web,VIP,Home,Coffee Maker,3,88.25,198.56,0,completed
+ORD-10952,2024-12-02,South,Mobile App,New,Electronics,Wireless Earbuds,1,82.29,61.72,15,completed
+ORD-10600,2024-12-03,South,Mobile App,New,Home,Desk Lamp,5,33.01,123.79,15,completed
+ORD-10701,2024-12-03,South,Web,Returning,Home,Coffee Maker,2,83.36,125.04,5,completed
+ORD-10899,2024-12-03,West,Marketplace,New,Apparel,Rain Jacket,2,88.24,132.36,0,completed
+ORD-10986,2024-12-03,North,Web,New,Home,Air Purifier,4,139.02,417.06,15,completed
+ORD-11199,2024-12-05,North,Web,New,Apparel,Rain Jacket,1,86.96,65.22,15,completed
+ORD-10674,2024-12-06,East,Marketplace,Returning,Electronics,Wireless Earbuds,1,80.47,60.35,0,completed
+ORD-10824,2024-12-06,East,Mobile App,Returning,Home,Air Purifier,2,150.26,225.39,15,completed
+ORD-10342,2024-12-06,West,Mobile App,Returning,Electronics,Bluetooth Speaker,4,54.49,163.47,0,completed
+ORD-10995,2024-12-08,West,Mobile App,VIP,Apparel,Running Shoes,2,99.23,148.84,0,completed
+ORD-10244,2024-12-09,North,Mobile App,Returning,Electronics,Bluetooth Speaker,5,54.12,202.95,15,completed
+ORD-10239,2024-12-09,South,Mobile App,VIP,Home,Desk Lamp,2,33.19,49.78,0,completed
+ORD-10598,2024-12-09,West,Marketplace,Returning,Electronics,Bluetooth Speaker,5,61.52,230.7,0,refunded
+ORD-10191,2024-12-10,West,Mobile App,New,Home,Air Purifier,3,134.7,303.08,10,completed
+ORD-10084,2024-12-10,West,Marketplace,New,Apparel,Wool Sweater,1,70.99,53.24,15,completed
+ORD-11170,2024-12-10,North,Mobile App,New,Home,Air Purifier,4,155.6,466.8,0,completed
+ORD-10879,2024-12-10,West,Web,VIP,Home,Coffee Maker,1,85.69,64.27,0,cancelled
+ORD-11171,2024-12-11,West,Mobile App,New,Apparel,Wool Sweater,2,70.42,105.63,0,completed
+ORD-11110,2024-12-11,South,Mobile App,Returning,Apparel,Running Shoes,1,104.31,78.23,10,completed
+ORD-10039,2024-12-11,East,Web,New,Beauty,Hair Dryer,5,64.7,242.62,5,completed
+ORD-10474,2024-12-12,East,Web,Returning,Beauty,Face Serum,4,41.28,123.84,0,completed
+ORD-11195,2024-12-12,South,Web,Returning,Electronics,Wireless Earbuds,2,77.25,115.88,15,completed
+ORD-10457,2024-12-12,North,Mobile App,New,Electronics,Smartwatch,2,206.03,309.04,20,cancelled
+ORD-10657,2024-12-12,East,Mobile App,VIP,Apparel,Running Shoes,2,105.88,158.82,10,refunded
+ORD-10129,2024-12-13,West,Marketplace,Returning,Home,Coffee Maker,2,92.7,139.05,15,completed
+ORD-10340,2024-12-13,North,Mobile App,Returning,Electronics,Smartwatch,2,189.25,283.88,0,completed
+ORD-10957,2024-12-13,East,Marketplace,New,Home,Desk Lamp,3,36.47,82.06,20,completed
+ORD-10742,2024-12-13,East,Web,Returning,Home,Coffee Maker,2,91.53,137.3,10,completed
+ORD-10781,2024-12-14,North,Mobile App,New,Electronics,Wireless Earbuds,5,81.01,303.79,10,completed
+ORD-10098,2024-12-14,East,Web,Returning,Apparel,Running Shoes,4,103.25,309.75,0,completed
+ORD-11127,2024-12-14,West,Web,New,Beauty,Hair Dryer,3,63.17,142.13,0,completed
+ORD-10919,2024-12-14,East,Mobile App,New,Electronics,Smartwatch,3,191.95,431.89,5,completed
+ORD-10672,2024-12-14,East,Web,New,Home,Desk Lamp,4,33.06,99.18,0,completed
+ORD-10615,2024-12-15,North,Web,New,Home,Desk Lamp,2,35.15,52.72,15,completed
+ORD-11067,2024-12-16,West,Mobile App,New,Electronics,Wireless Earbuds,5,79.34,297.53,10,completed
+ORD-10599,2024-12-17,West,Marketplace,Returning,Apparel,Running Shoes,5,106.23,398.36,20,completed
+ORD-10568,2024-12-17,North,Mobile App,Returning,Apparel,Rain Jacket,4,97.43,292.29,15,cancelled
+ORD-10025,2024-12-18,West,Mobile App,VIP,Home,Desk Lamp,3,32.24,72.54,10,completed
+ORD-10983,2024-12-20,East,Mobile App,Returning,Electronics,Bluetooth Speaker,5,55.17,206.89,20,cancelled
+ORD-10243,2024-12-21,West,Web,New,Home,Air Purifier,3,140.8,316.8,0,completed
+ORD-11129,2024-12-21,South,Web,New,Home,Coffee Maker,2,92.23,138.34,5,completed
+ORD-10823,2024-12-21,East,Web,Returning,Home,Coffee Maker,5,80.51,301.91,20,completed
+ORD-10933,2024-12-21,South,Mobile App,New,Apparel,Wool Sweater,3,63.38,142.61,20,completed
+ORD-11088,2024-12-22,South,Web,New,Home,Air Purifier,4,135.74,407.22,5,cancelled
+ORD-10770,2024-12-22,East,Marketplace,New,Electronics,Smartwatch,4,207.16,621.48,0,completed
+ORD-10501,2024-12-22,South,Web,New,Electronics,Bluetooth Speaker,5,58.15,218.06,0,cancelled
+ORD-10985,2024-12-22,West,Marketplace,New,Beauty,Hair Dryer,4,59.2,177.6,5,completed
+ORD-10651,2024-12-22,West,Mobile App,Returning,Electronics,Smartwatch,4,185.37,556.11,0,completed
+ORD-10122,2024-12-23,East,Web,Returning,Electronics,Bluetooth Speaker,3,56.03,126.07,20,refunded
+ORD-10841,2024-12-24,North,Web,Returning,Electronics,Smartwatch,2,198.29,297.44,0,completed
+ORD-10002,2024-12-24,North,Web,New,Beauty,Face Serum,2,39.34,59.01,10,completed
+ORD-10729,2024-12-25,South,Web,Returning,Electronics,Bluetooth Speaker,1,59.8,44.85,0,completed
+ORD-10315,2024-12-26,South,Web,VIP,Beauty,Face Serum,2,38.2,57.3,0,completed
+ORD-10254,2024-12-27,East,Web,New,Electronics,Smartwatch,1,180.21,135.16,15,completed
+ORD-10371,2024-12-27,West,Marketplace,New,Electronics,Bluetooth Speaker,3,53.42,120.2,0,refunded
+ORD-10236,2024-12-28,West,Web,New,Apparel,Running Shoes,5,114.74,430.28,15,completed
+ORD-10445,2024-12-28,West,Marketplace,VIP,Electronics,Wireless Earbuds,2,75.09,112.64,20,completed
+ORD-10155,2024-12-28,East,Marketplace,New,Electronics,Wireless Earbuds,1,75.03,56.27,15,completed
+ORD-10478,2024-12-28,North,Mobile App,New,Apparel,Running Shoes,2,114.38,171.57,0,completed
+ORD-10161,2024-12-29,East,Web,Returning,Electronics,Smartwatch,3,207.89,467.75,0,completed
+ORD-10107,2024-12-29,South,Web,Returning,Apparel,Wool Sweater,4,69.79,209.37,5,completed
+ORD-10818,2024-12-30,East,Web,Returning,Beauty,Hair Dryer,5,65.19,244.46,0,completed
+ORD-10821,2024-12-30,West,Web,New,Home,Desk Lamp,1,34.8,26.1,5,completed
+ORD-10310,2024-12-30,East,Mobile App,Returning,Apparel,Running Shoes,3,114.4,257.4,15,completed
+ORD-11048,2024-12-31,North,Mobile App,New,Beauty,Face Serum,4,40.11,120.33,5,completed
+ORD-10121,2024-12-31,East,Web,New,Home,Coffee Maker,5,84.54,317.03,10,completed
+ORD-10858,2025-01-01,East,Mobile App,New,Beauty,Face Serum,3,42.25,114.52,5,completed
+ORD-10079,2025-01-01,West,Marketplace,Returning,Home,Desk Lamp,4,32.9,118.9,0,completed
+ORD-11131,2025-01-01,West,Marketplace,Returning,Electronics,Bluetooth Speaker,3,58.65,158.97,20,completed
+ORD-10640,2025-01-01,West,Mobile App,Returning,Beauty,Face Serum,3,39.54,107.17,0,completed
+ORD-10282,2025-01-02,West,Web,New,Beauty,Hair Dryer,1,61.19,55.28,15,completed
+ORD-10311,2025-01-02,East,Mobile App,Returning,Beauty,Hair Dryer,4,67.63,244.41,10,completed
+ORD-10735,2025-01-02,North,Web,VIP,Beauty,Face Serum,4,43.94,158.8,20,completed
+ORD-11070,2025-01-04,West,Web,VIP,Electronics,Wireless Earbuds,4,75.76,273.79,0,completed
+ORD-10256,2025-01-05,North,Marketplace,New,Apparel,Rain Jacket,5,86.95,392.79,0,completed
+ORD-10048,2025-01-05,North,Mobile App,VIP,Apparel,Wool Sweater,1,72.65,65.64,5,completed
+ORD-10415,2025-01-05,South,Mobile App,VIP,Electronics,Wireless Earbuds,2,73.85,133.45,15,completed
+ORD-10710,2025-01-06,North,Web,New,Home,Coffee Maker,3,91.68,248.5,0,refunded
+ORD-10826,2025-01-07,South,Mobile App,VIP,Electronics,Wireless Earbuds,3,74.31,201.42,15,refunded
+ORD-10549,2025-01-07,North,Mobile App,Returning,Beauty,Face Serum,3,43.17,117.01,20,completed
+ORD-10190,2025-01-08,North,Web,New,Electronics,Wireless Earbuds,4,73.41,265.3,15,completed
+ORD-10059,2025-01-08,North,Web,Returning,Home,Coffee Maker,4,83.7,302.49,0,completed
+ORD-10097,2025-01-08,East,Web,New,Home,Coffee Maker,3,85.31,231.23,0,cancelled
+ORD-10812,2025-01-09,North,Web,New,Apparel,Rain Jacket,4,93.54,338.05,15,completed
+ORD-10614,2025-01-10,South,Web,Returning,Electronics,Bluetooth Speaker,2,58.43,105.58,20,refunded
+ORD-10635,2025-01-10,West,Marketplace,Returning,Electronics,Wireless Earbuds,5,71.83,324.49,0,completed
+ORD-10787,2025-01-10,North,Web,New,Electronics,Wireless Earbuds,5,72.62,328.06,20,completed
+ORD-10074,2025-01-10,North,Mobile App,Returning,Home,Coffee Maker,1,91.7,82.85,0,completed
+ORD-11148,2025-01-11,East,Mobile App,New,Home,Desk Lamp,5,33.78,152.6,0,completed
+ORD-11061,2025-01-11,East,Mobile App,VIP,Apparel,Rain Jacket,3,95.53,258.93,0,completed
+ORD-10586,2025-01-12,South,Web,New,Home,Air Purifier,2,142.83,258.09,20,completed
+ORD-10940,2025-01-12,East,Marketplace,VIP,Apparel,Rain Jacket,4,86.54,312.75,20,completed
+ORD-11182,2025-01-12,West,Mobile App,Returning,Electronics,Smartwatch,5,199.98,903.4,0,completed
+ORD-10421,2025-01-14,West,Marketplace,VIP,Apparel,Running Shoes,5,104.65,472.75,20,completed
+ORD-10183,2025-01-15,South,Mobile App,New,Apparel,Wool Sweater,3,64.82,175.69,20,completed
+ORD-10665,2025-01-15,North,Marketplace,New,Apparel,Wool Sweater,3,67.41,182.71,15,completed
+ORD-10865,2025-01-16,East,Marketplace,New,Apparel,Running Shoes,3,104.35,282.84,20,completed
+ORD-10007,2025-01-16,North,Web,New,Electronics,Bluetooth Speaker,5,54.08,244.3,5,completed
+ORD-10874,2025-01-16,West,Web,New,Home,Desk Lamp,3,36.74,99.58,0,completed
+ORD-10174,2025-01-16,East,Web,Returning,Electronics,Smartwatch,5,199.34,900.51,0,cancelled
+ORD-10931,2025-01-17,North,Marketplace,New,Electronics,Wireless Earbuds,1,78.05,70.52,20,completed
+ORD-10203,2025-01-17,North,Marketplace,New,Home,Air Purifier,4,148.61,537.07,10,refunded
+ORD-10042,2025-01-18,South,Marketplace,New,Electronics,Bluetooth Speaker,1,59.87,54.09,10,completed
+ORD-10085,2025-01-18,North,Marketplace,New,Home,Air Purifier,2,141.17,255.09,0,completed
+ORD-10981,2025-01-18,South,Marketplace,Returning,Electronics,Bluetooth Speaker,1,57.0,51.5,15,completed
+ORD-11193,2025-01-19,South,Marketplace,Returning,Apparel,Running Shoes,4,112.79,407.62,5,completed
+ORD-10222,2025-01-20,East,Mobile App,Returning,Electronics,Smartwatch,4,201.78,729.23,0,completed
+ORD-11063,2025-01-20,West,Web,VIP,Electronics,Smartwatch,2,196.6,355.25,10,completed
+ORD-10109,2025-01-20,East,Mobile App,New,Home,Desk Lamp,4,36.42,131.62,0,completed
+ORD-11040,2025-01-21,North,Mobile App,New,Apparel,Wool Sweater,4,67.65,244.49,20,completed
+ORD-11044,2025-01-22,South,Web,Returning,Electronics,Wireless Earbuds,5,76.79,346.9,20,completed
+ORD-10540,2025-01-22,North,Mobile App,Returning,Home,Desk Lamp,2,36.17,65.36,0,completed
+ORD-10905,2025-01-23,South,Web,Returning,Home,Coffee Maker,5,89.02,402.15,15,completed
+ORD-10891,2025-01-23,West,Marketplace,VIP,Apparel,Running Shoes,3,109.94,297.99,0,completed
+ORD-11076,2025-01-24,East,Mobile App,New,Apparel,Rain Jacket,5,94.75,428.03,0,completed
+ORD-11196,2025-01-25,South,Web,New,Home,Coffee Maker,5,81.67,368.94,20,completed
+ORD-10429,2025-01-26,North,Mobile App,VIP,Home,Coffee Maker,2,91.07,164.56,0,cancelled
+ORD-10211,2025-01-27,North,Mobile App,New,Electronics,Smartwatch,1,200.03,180.73,0,completed
+ORD-10176,2025-01-27,West,Marketplace,New,Apparel,Rain Jacket,3,97.85,265.22,0,completed
+ORD-10773,2025-01-27,West,Web,Returning,Apparel,Wool Sweater,4,71.59,258.72,0,completed
+ORD-10014,2025-01-27,East,Mobile App,VIP,Electronics,Bluetooth Speaker,4,55.57,200.83,10,completed
+ORD-10235,2025-01-28,East,Mobile App,New,Home,Desk Lamp,2,32.2,58.18,0,completed
+ORD-10394,2025-01-28,North,Mobile App,Returning,Beauty,Hair Dryer,2,65.72,118.76,5,completed
+ORD-10696,2025-01-29,North,Web,Returning,Electronics,Smartwatch,4,188.04,679.57,0,completed
+ORD-10726,2025-01-29,North,Web,VIP,Home,Desk Lamp,3,36.55,99.07,0,completed
+ORD-10224,2025-01-29,East,Web,Returning,Apparel,Rain Jacket,5,87.48,395.19,10,completed
+ORD-11118,2025-01-30,South,Web,Returning,Apparel,Rain Jacket,4,90.03,325.37,0,completed
+ORD-10173,2025-01-30,North,Marketplace,VIP,Apparel,Running Shoes,4,115.25,416.51,0,completed
+ORD-10680,2025-01-30,North,Web,Returning,Home,Coffee Maker,5,89.95,406.35,0,completed
+ORD-10460,2025-01-30,East,Mobile App,New,Beauty,Face Serum,5,40.64,183.59,0,completed
+ORD-10792,2025-01-30,West,Web,New,Electronics,Wireless Earbuds,3,71.38,193.47,15,completed
+ORD-10675,2025-01-31,East,Mobile App,Returning,Electronics,Bluetooth Speaker,3,60.87,164.99,0,completed
+ORD-11136,2025-01-31,East,Web,Returning,Beauty,Face Serum,1,40.97,37.02,5,completed
+ORD-10317,2025-02-01,South,Marketplace,Returning,Electronics,Bluetooth Speaker,3,54.0,161.19,0,completed
+ORD-10712,2025-02-02,South,Web,Returning,Home,Coffee Maker,5,93.35,464.42,0,completed
+ORD-10730,2025-02-02,West,Web,New,Apparel,Running Shoes,3,114.45,341.63,0,completed
+ORD-10316,2025-02-03,South,Marketplace,New,Electronics,Wireless Earbuds,2,79.84,158.88,0,completed
+ORD-11032,2025-02-03,South,Web,VIP,Apparel,Running Shoes,5,109.57,545.11,0,completed
+ORD-10736,2025-02-03,South,Marketplace,Returning,Electronics,Bluetooth Speaker,1,55.36,55.08,20,completed
+ORD-10759,2025-02-03,West,Marketplace,Returning,Electronics,Bluetooth Speaker,1,54.56,54.29,0,completed
+ORD-10661,2025-02-05,West,Web,Returning,Home,Air Purifier,1,154.4,153.63,10,cancelled
+ORD-11008,2025-02-05,North,Mobile App,New,Home,Desk Lamp,3,32.35,96.56,15,completed
+ORD-10885,2025-02-05,South,Mobile App,Returning,Electronics,Smartwatch,3,180.27,538.11,20,completed
+ORD-10012,2025-02-06,South,Web,Returning,Beauty,Hair Dryer,3,65.93,196.8,5,completed
+ORD-11001,2025-02-06,North,Web,VIP,Electronics,Bluetooth Speaker,2,56.26,111.96,10,completed
+ORD-10556,2025-02-06,South,Mobile App,Returning,Electronics,Bluetooth Speaker,4,57.51,228.89,5,completed
+ORD-10376,2025-02-06,West,Mobile App,Returning,Home,Coffee Maker,2,80.24,159.68,15,completed
+ORD-10738,2025-02-07,East,Web,New,Beauty,Hair Dryer,5,66.26,329.64,0,completed
+ORD-10214,2025-02-07,North,Mobile App,Returning,Electronics,Smartwatch,4,183.47,730.21,20,completed
+ORD-10756,2025-02-07,West,Mobile App,Returning,Home,Desk Lamp,1,32.87,32.71,15,completed
+ORD-10630,2025-02-07,East,Web,New,Electronics,Wireless Earbuds,5,72.36,359.99,15,completed
+ORD-10470,2025-02-07,North,Mobile App,Returning,Beauty,Face Serum,1,40.57,40.37,10,completed
+ORD-10804,2025-02-07,North,Web,Returning,Electronics,Wireless Earbuds,4,71.34,283.93,15,completed
+ORD-10602,2025-02-08,North,Mobile App,New,Apparel,Rain Jacket,4,92.64,368.71,15,completed
+ORD-10431,2025-02-08,South,Web,New,Apparel,Rain Jacket,3,93.45,278.95,0,completed
+ORD-11035,2025-02-10,East,Web,New,Home,Desk Lamp,5,33.56,166.96,20,completed
+ORD-11138,2025-02-10,West,Mobile App,New,Home,Coffee Maker,5,89.57,445.61,0,completed
+ORD-10058,2025-02-10,West,Web,Returning,Home,Coffee Maker,2,82.98,165.13,10,completed
+ORD-10877,2025-02-11,North,Mobile App,New,Beauty,Face Serum,2,43.8,87.16,10,completed
+ORD-10061,2025-02-11,West,Web,VIP,Beauty,Face Serum,5,40.58,201.89,20,completed
+ORD-10511,2025-02-12,North,Web,Returning,Home,Coffee Maker,5,89.54,445.46,10,completed
+ORD-10390,2025-02-12,North,Marketplace,New,Apparel,Wool Sweater,4,64.45,256.51,0,completed
+ORD-10377,2025-02-12,North,Mobile App,New,Home,Desk Lamp,3,36.31,108.39,10,completed
+ORD-10359,2025-02-13,West,Web,VIP,Home,Air Purifier,5,149.01,741.32,5,completed
+ORD-10462,2025-02-13,South,Mobile App,New,Electronics,Smartwatch,3,179.3,535.21,10,completed
+ORD-10894,2025-02-13,West,Web,VIP,Home,Air Purifier,3,154.77,461.99,15,completed
+ORD-11064,2025-02-15,South,Mobile App,New,Beauty,Face Serum,5,38.55,191.79,20,refunded
+ORD-10492,2025-02-16,West,Mobile App,Returning,Electronics,Smartwatch,2,204.65,407.25,10,completed
+ORD-11097,2025-02-17,North,Mobile App,Returning,Apparel,Running Shoes,5,109.26,543.57,0,completed
+ORD-11072,2025-02-17,West,Marketplace,VIP,Apparel,Running Shoes,4,105.92,421.56,0,completed
+ORD-10246,2025-02-18,South,Mobile App,New,Home,Desk Lamp,4,33.31,132.57,20,completed
+ORD-10233,2025-02-18,South,Web,VIP,Apparel,Rain Jacket,1,86.92,86.49,20,completed
+ORD-10041,2025-02-18,West,Marketplace,Returning,Apparel,Wool Sweater,1,72.7,72.34,10,completed
+ORD-10050,2025-02-19,South,Web,Returning,Home,Air Purifier,5,153.91,765.7,10,cancelled
+ORD-10013,2025-02-20,North,Web,New,Beauty,Face Serum,3,42.2,125.97,15,completed
+ORD-10713,2025-02-21,West,Marketplace,Returning,Electronics,Wireless Earbuds,5,80.04,398.2,20,completed
+ORD-11133,2025-02-21,North,Web,New,Electronics,Wireless Earbuds,2,77.15,153.53,0,completed
+ORD-10741,2025-02-21,North,Web,New,Apparel,Rain Jacket,1,88.19,87.75,20,cancelled
+ORD-10206,2025-02-22,West,Web,Returning,Apparel,Running Shoes,3,99.06,295.69,0,completed
+ORD-10127,2025-02-22,West,Web,New,Electronics,Smartwatch,3,182.95,546.11,5,completed
+ORD-10488,2025-02-22,West,Marketplace,New,Home,Desk Lamp,2,32.6,64.87,0,completed
+ORD-10656,2025-02-23,South,Web,Returning,Apparel,Running Shoes,1,101.62,101.11,0,completed
+ORD-10422,2025-02-23,East,Mobile App,New,Beauty,Hair Dryer,5,64.93,323.03,5,completed
+ORD-10319,2025-02-24,North,Web,Returning,Home,Coffee Maker,1,84.25,83.83,20,completed
+ORD-11147,2025-02-24,West,Mobile App,Returning,Home,Air Purifier,5,149.53,743.91,0,completed
+ORD-10088,2025-02-24,West,Web,Returning,Apparel,Wool Sweater,2,68.74,136.79,10,completed
+ORD-10644,2025-02-25,South,Mobile App,Returning,Home,Coffee Maker,2,80.79,160.77,20,completed
+ORD-11060,2025-02-25,East,Web,Returning,Electronics,Bluetooth Speaker,3,61.66,184.06,0,completed
+ORD-10910,2025-02-25,North,Web,Returning,Electronics,Wireless Earbuds,2,77.16,153.55,15,completed
+ORD-10369,2025-02-26,East,Mobile App,Returning,Electronics,Smartwatch,1,192.27,191.31,15,completed
+ORD-10172,2025-02-26,East,Mobile App,Returning,Home,Coffee Maker,5,89.59,445.71,15,completed
+ORD-10863,2025-02-26,North,Mobile App,VIP,Electronics,Smartwatch,3,189.36,565.24,0,completed
+ORD-11057,2025-02-26,South,Mobile App,Returning,Apparel,Rain Jacket,2,99.09,197.19,15,completed
+ORD-10733,2025-02-27,North,Web,Returning,Beauty,Hair Dryer,3,64.15,191.49,10,completed
+ORD-10001,2025-02-27,West,Web,New,Apparel,Rain Jacket,3,93.97,280.5,0,completed
+ORD-10835,2025-02-28,North,Web,Returning,Beauty,Hair Dryer,3,62.79,187.43,10,completed
+ORD-10401,2025-03-01,West,Mobile App,VIP,Home,Desk Lamp,3,35.88,120.56,5,completed
+ORD-10209,2025-03-01,North,Mobile App,Returning,Beauty,Hair Dryer,2,59.43,133.12,20,completed
+ORD-10814,2025-03-01,North,Web,Returning,Electronics,Smartwatch,3,191.96,644.99,10,completed
+ORD-10049,2025-03-01,West,Web,New,Electronics,Bluetooth Speaker,5,55.3,309.68,20,completed
+ORD-10597,2025-03-02,South,Marketplace,VIP,Apparel,Running Shoes,2,113.57,254.4,5,completed
+ORD-10106,2025-03-02,East,Web,New,Apparel,Running Shoes,2,104.47,234.01,20,completed
+ORD-10765,2025-03-02,North,Mobile App,New,Home,Desk Lamp,4,35.65,159.71,5,completed
+ORD-10601,2025-03-02,North,Web,New,Home,Desk Lamp,4,32.18,144.17,0,completed
+ORD-10111,2025-03-03,West,Mobile App,Returning,Apparel,Wool Sweater,3,65.68,220.68,15,completed
+ORD-10805,2025-03-03,South,Mobile App,New,Electronics,Bluetooth Speaker,1,54.49,61.03,0,completed
+ORD-10024,2025-03-03,North,Marketplace,New,Beauty,Hair Dryer,3,61.56,206.84,10,completed
+ORD-10277,2025-03-04,North,Mobile App,New,Electronics,Wireless Earbuds,1,77.42,86.71,0,completed
+ORD-10159,2025-03-04,West,Web,New,Home,Coffee Maker,5,84.27,471.91,20,completed
+ORD-10689,2025-03-04,West,Mobile App,New,Home,Air Purifier,2,142.62,319.47,10,completed
+ORD-10612,2025-03-04,East,Web,Returning,Home,Coffee Maker,3,88.31,296.72,15,completed
+ORD-10917,2025-03-04,West,Mobile App,Returning,Beauty,Face Serum,4,41.23,184.71,15,completed
+ORD-10015,2025-03-05,North,Mobile App,New,Apparel,Rain Jacket,2,95.6,214.14,0,completed
+ORD-10475,2025-03-05,North,Mobile App,Returning,Electronics,Wireless Earbuds,2,76.22,170.73,5,completed
+ORD-10954,2025-03-05,North,Web,Returning,Electronics,Bluetooth Speaker,1,53.71,60.16,15,completed
+ORD-10724,2025-03-05,South,Web,Returning,Electronics,Bluetooth Speaker,4,60.35,270.37,0,completed
+ORD-10105,2025-03-06,North,Web,Returning,Home,Coffee Maker,4,89.12,399.26,10,completed
+ORD-10248,2025-03-06,East,Web,New,Electronics,Bluetooth Speaker,2,60.88,136.37,0,completed
+ORD-10989,2025-03-06,East,Web,Returning,Electronics,Wireless Earbuds,5,82.91,464.3,10,completed
+ORD-10212,2025-03-07,West,Web,New,Beauty,Hair Dryer,3,66.21,222.47,0,completed
+ORD-10558,2025-03-09,North,Mobile App,New,Home,Air Purifier,1,148.02,165.78,10,completed
+ORD-10638,2025-03-09,North,Web,Returning,Electronics,Bluetooth Speaker,3,60.22,202.34,0,completed
+ORD-10134,2025-03-10,West,Marketplace,New,Electronics,Wireless Earbuds,2,79.65,178.42,20,completed
+ORD-10744,2025-03-10,East,Mobile App,New,Beauty,Face Serum,2,38.37,85.95,0,completed
+ORD-10260,2025-03-10,South,Web,New,Apparel,Rain Jacket,3,86.63,291.08,15,completed
+ORD-10691,2025-03-10,South,Web,New,Apparel,Wool Sweater,4,69.3,310.46,10,completed
+ORD-11132,2025-03-10,North,Mobile App,New,Apparel,Wool Sweater,2,67.49,151.18,20,refunded
+ORD-10483,2025-03-11,West,Marketplace,New,Apparel,Wool Sweater,4,68.91,308.72,0,completed
+ORD-10104,2025-03-11,North,Marketplace,Returning,Electronics,Bluetooth Speaker,1,58.77,65.82,0,completed
+ORD-10070,2025-03-11,West,Mobile App,New,Electronics,Wireless Earbuds,1,71.29,79.84,5,completed
+ORD-10590,2025-03-13,South,Web,Returning,Home,Coffee Maker,1,90.83,101.73,0,completed
+ORD-10715,2025-03-13,West,Mobile App,New,Apparel,Running Shoes,4,112.73,505.03,0,completed
+ORD-11011,2025-03-13,North,Mobile App,Returning,Apparel,Running Shoes,4,101.84,456.24,0,completed
+ORD-10685,2025-03-14,West,Marketplace,VIP,Beauty,Hair Dryer,1,59.42,66.55,0,completed
+ORD-10595,2025-03-14,North,Web,VIP,Electronics,Smartwatch,1,208.88,233.95,5,cancelled
+ORD-10851,2025-03-14,South,Web,New,Apparel,Running Shoes,4,103.58,464.04,0,completed
+ORD-11086,2025-03-14,West,Web,Returning,Home,Desk Lamp,5,34.33,192.25,20,completed
+ORD-10859,2025-03-14,North,Web,Returning,Home,Coffee Maker,4,81.19,363.73,10,completed
+ORD-10550,2025-03-15,North,Web,Returning,Electronics,Wireless Earbuds,2,81.33,182.18,0,completed
+ORD-10471,2025-03-15,South,Web,New,Apparel,Wool Sweater,3,67.69,227.44,20,completed
+ORD-11198,2025-03-15,East,Web,New,Home,Coffee Maker,4,82.44,369.33,20,completed
+ORD-10427,2025-03-15,South,Web,New,Home,Coffee Maker,4,91.83,411.4,0,cancelled
+ORD-10091,2025-03-16,North,Mobile App,New,Beauty,Hair Dryer,3,67.43,226.56,0,cancelled
+ORD-10653,2025-03-16,North,Web,Returning,Apparel,Rain Jacket,4,88.39,395.99,0,completed
+ORD-10102,2025-03-16,West,Web,VIP,Electronics,Wireless Earbuds,4,82.47,369.47,10,completed
+ORD-10290,2025-03-17,East,Mobile App,Returning,Electronics,Smartwatch,5,189.63,1061.93,0,completed
+ORD-10226,2025-03-18,North,Mobile App,New,Home,Coffee Maker,2,89.14,199.67,5,completed
+ORD-10836,2025-03-18,West,Web,New,Electronics,Smartwatch,2,199.56,447.01,0,completed
+ORD-11000,2025-03-18,North,Web,VIP,Beauty,Hair Dryer,1,65.48,73.34,20,completed
+ORD-10335,2025-03-18,North,Marketplace,Returning,Electronics,Bluetooth Speaker,1,56.21,62.96,15,completed
+ORD-10884,2025-03-20,West,Marketplace,New,Apparel,Rain Jacket,3,99.39,333.95,0,completed
+ORD-10165,2025-03-21,North,Web,Returning,Electronics,Smartwatch,1,199.72,223.69,0,completed
+ORD-10513,2025-03-22,West,Web,Returning,Beauty,Hair Dryer,2,67.97,152.25,10,completed
+ORD-10740,2025-03-22,West,Web,Returning,Electronics,Wireless Earbuds,2,73.6,164.86,15,completed
+ORD-10848,2025-03-24,North,Mobile App,Returning,Apparel,Rain Jacket,5,88.87,497.67,0,completed
+ORD-10866,2025-03-24,East,Web,New,Home,Desk Lamp,2,34.46,77.19,0,completed
+ORD-10148,2025-03-25,East,Mobile App,Returning,Apparel,Wool Sweater,2,72.01,161.3,5,completed
+ORD-11024,2025-03-25,South,Web,Returning,Home,Coffee Maker,3,90.73,304.85,0,completed
+ORD-10027,2025-03-26,North,Marketplace,Returning,Electronics,Wireless Earbuds,3,81.29,273.13,0,completed
+ORD-10301,2025-03-27,South,Web,Returning,Electronics,Bluetooth Speaker,3,55.92,187.89,10,completed
+ORD-10432,2025-03-27,South,Web,New,Home,Air Purifier,2,156.11,349.69,5,completed
+ORD-10604,2025-03-27,West,Web,Returning,Electronics,Wireless Earbuds,1,82.19,92.05,5,completed
+ORD-10523,2025-03-27,East,Web,Returning,Electronics,Wireless Earbuds,2,75.61,169.37,0,completed
+ORD-10793,2025-03-27,South,Mobile App,Returning,Electronics,Wireless Earbuds,4,72.92,326.68,10,completed
+ORD-11039,2025-03-28,East,Mobile App,New,Apparel,Wool Sweater,4,71.63,320.9,5,completed
+ORD-10037,2025-03-28,West,Web,Returning,Apparel,Rain Jacket,1,85.57,95.84,20,completed
+ORD-10481,2025-03-29,North,Web,Returning,Beauty,Face Serum,4,42.24,189.24,0,cancelled
+ORD-10333,2025-03-29,South,Marketplace,Returning,Apparel,Wool Sweater,1,65.55,73.42,5,completed
+ORD-10552,2025-03-29,South,Mobile App,VIP,Electronics,Bluetooth Speaker,1,56.14,62.88,15,completed
+ORD-10387,2025-03-30,West,Marketplace,New,Electronics,Wireless Earbuds,1,82.29,92.16,20,completed
+ORD-10544,2025-03-30,North,Web,Returning,Home,Air Purifier,2,141.48,316.92,20,completed
+ORD-10083,2025-03-31,North,Web,Returning,Home,Coffee Maker,1,90.53,101.39,0,completed
+ORD-10581,2025-03-31,West,Mobile App,Returning,Electronics,Smartwatch,5,202.74,1135.34,0,completed
+ORD-10100,2025-03-31,South,Web,New,Electronics,Wireless Earbuds,2,82.4,184.58,0,completed
+ORD-10089,2025-03-31,East,Mobile App,Returning,Home,Air Purifier,3,154.64,519.59,0,completed
+ORD-10610,2025-04-01,East,Mobile App,Returning,Apparel,Running Shoes,1,109.82,136.73,5,completed
+ORD-11096,2025-04-01,West,Web,New,Electronics,Wireless Earbuds,1,78.1,97.23,0,completed
+ORD-11079,2025-04-02,West,Web,VIP,Home,Air Purifier,1,144.17,179.49,15,completed
+ORD-10815,2025-04-02,South,Web,Returning,Apparel,Rain Jacket,4,91.06,453.48,0,completed
+ORD-10588,2025-04-02,North,Marketplace,New,Electronics,Wireless Earbuds,3,80.34,300.07,5,completed
+ORD-11085,2025-04-03,North,Marketplace,Returning,Electronics,Bluetooth Speaker,5,61.27,381.41,10,completed
+ORD-10867,2025-04-03,South,Marketplace,New,Electronics,Bluetooth Speaker,5,55.38,344.74,10,completed
+ORD-11015,2025-04-03,South,Web,Returning,Electronics,Smartwatch,1,195.47,243.36,10,completed
+ORD-10962,2025-04-04,North,Mobile App,New,Beauty,Face Serum,1,42.18,52.51,0,completed
+ORD-10512,2025-04-04,East,Mobile App,Returning,Apparel,Running Shoes,2,115.3,287.1,0,completed
+ORD-10458,2025-04-04,East,Mobile App,Returning,Home,Air Purifier,4,134.56,670.11,20,completed
+ORD-10018,2025-04-04,West,Web,New,Electronics,Smartwatch,3,188.84,705.32,20,completed
+ORD-11124,2025-04-04,North,Web,Returning,Home,Air Purifier,5,156.37,973.4,5,completed
+ORD-11023,2025-04-05,North,Mobile App,New,Electronics,Wireless Earbuds,1,81.79,101.83,0,completed
+ORD-10092,2025-04-05,North,Web,VIP,Electronics,Wireless Earbuds,1,81.18,101.07,0,completed
+ORD-11125,2025-04-06,North,Marketplace,New,Electronics,Smartwatch,1,183.65,228.64,5,completed
+ORD-11143,2025-04-06,East,Mobile App,VIP,Beauty,Face Serum,4,40.21,200.25,5,completed
+ORD-11092,2025-04-06,West,Marketplace,Returning,Electronics,Bluetooth Speaker,1,60.5,75.32,0,completed
+ORD-10589,2025-04-06,East,Mobile App,Returning,Apparel,Wool Sweater,5,66.07,411.29,0,completed
+ORD-10360,2025-04-07,West,Web,New,Home,Desk Lamp,2,33.17,82.59,10,completed
+ORD-10864,2025-04-07,West,Mobile App,VIP,Apparel,Rain Jacket,3,99.03,369.88,10,completed
+ORD-10722,2025-04-07,North,Mobile App,New,Electronics,Smartwatch,4,204.5,1018.41,5,completed
+ORD-10774,2025-04-07,East,Web,Returning,Beauty,Face Serum,4,42.79,213.09,10,cancelled
+ORD-10476,2025-04-08,North,Mobile App,New,Home,Desk Lamp,2,35.84,89.24,20,completed
+ORD-11162,2025-04-08,North,Web,New,Electronics,Wireless Earbuds,5,81.29,506.03,0,completed
+ORD-10649,2025-04-09,West,Mobile App,Returning,Beauty,Face Serum,1,43.21,53.8,20,completed
+ORD-10296,2025-04-09,South,Web,VIP,Electronics,Smartwatch,4,201.68,1004.37,20,completed
+ORD-10855,2025-04-09,North,Marketplace,Returning,Electronics,Wireless Earbuds,2,73.71,183.54,0,completed
+ORD-10779,2025-04-10,West,Web,New,Home,Desk Lamp,2,36.55,91.01,15,completed
+ORD-11157,2025-04-10,South,Web,New,Beauty,Face Serum,4,38.25,190.48,0,completed
+ORD-10881,2025-04-10,East,Web,VIP,Electronics,Wireless Earbuds,4,81.94,408.06,0,refunded
+ORD-10559,2025-04-10,West,Web,New,Apparel,Running Shoes,2,107.49,267.65,20,completed
+ORD-11006,2025-04-10,North,Marketplace,Returning,Beauty,Face Serum,3,40.92,152.84,10,completed
+ORD-10145,2025-04-11,West,Web,New,Home,Desk Lamp,4,34.86,173.6,0,completed
+ORD-11149,2025-04-11,North,Web,Returning,Home,Coffee Maker,3,85.65,319.9,10,completed
+ORD-10642,2025-04-12,North,Mobile App,Returning,Home,Desk Lamp,5,35.78,222.73,20,completed
+ORD-10124,2025-04-12,North,Web,Returning,Electronics,Wireless Earbuds,2,73.36,182.67,10,completed
+ORD-10834,2025-04-12,East,Web,New,Electronics,Smartwatch,4,187.77,935.09,0,completed
+ORD-11126,2025-04-12,East,Web,New,Home,Air Purifier,4,145.69,725.54,5,completed
+ORD-10150,2025-04-13,North,Web,New,Electronics,Smartwatch,2,179.12,446.01,20,completed
+ORD-11041,2025-04-13,South,Marketplace,VIP,Electronics,Wireless Earbuds,5,80.03,498.19,0,cancelled
+ORD-10231,2025-04-13,West,Web,Returning,Home,Air Purifier,5,136.61,850.4,20,completed
+ORD-10005,2025-04-14,West,Mobile App,New,Apparel,Running Shoes,4,111.78,556.66,0,completed
+ORD-10036,2025-04-14,South,Marketplace,New,Apparel,Rain Jacket,1,94.3,117.4,0,completed
+ORD-10609,2025-04-14,East,Marketplace,Returning,Home,Coffee Maker,4,83.11,413.89,10,completed
+ORD-10667,2025-04-15,North,Web,Returning,Beauty,Hair Dryer,2,59.75,148.78,15,completed
+ORD-10828,2025-04-17,East,Mobile App,Returning,Apparel,Wool Sweater,3,72.82,271.98,0,completed
+ORD-10426,2025-04-17,West,Mobile App,Returning,Beauty,Face Serum,2,38.34,95.47,0,completed
+ORD-10491,2025-04-19,North,Mobile App,Returning,Apparel,Running Shoes,5,99.04,616.52,0,completed
+ORD-10503,2025-04-19,South,Mobile App,New,Apparel,Running Shoes,3,109.64,409.51,15,completed
+ORD-11022,2025-04-20,North,Mobile App,New,Apparel,Wool Sweater,5,66.31,412.78,0,completed
+ORD-10920,2025-04-22,East,Web,New,Electronics,Bluetooth Speaker,5,55.03,342.56,5,completed
+ORD-10557,2025-04-23,West,Web,VIP,Electronics,Wireless Earbuds,4,82.07,408.71,20,completed
+ORD-10395,2025-04-23,West,Mobile App,Returning,Home,Coffee Maker,3,92.47,345.38,5,completed
+ORD-10811,2025-04-25,East,Mobile App,Returning,Beauty,Hair Dryer,2,59.84,149.0,0,completed
+ORD-10780,2025-04-25,West,Web,New,Home,Desk Lamp,3,31.95,119.33,0,completed
+ORD-11140,2025-04-27,South,Marketplace,Returning,Electronics,Wireless Earbuds,2,75.73,188.57,0,refunded
+ORD-10516,2025-04-27,South,Mobile App,New,Electronics,Wireless Earbuds,3,78.32,292.53,20,completed
+ORD-10903,2025-04-28,East,Web,Returning,Home,Desk Lamp,3,34.28,128.04,0,completed
+ORD-10374,2025-04-29,West,Web,Returning,Electronics,Wireless Earbuds,2,77.11,192.0,10,completed
+ORD-11003,2025-04-29,South,Mobile App,Returning,Apparel,Wool Sweater,5,65.53,407.92,0,completed
+ORD-10034,2025-04-30,North,Mobile App,Returning,Electronics,Bluetooth Speaker,5,61.82,384.83,0,completed
+ORD-10564,2025-05-01,South,Mobile App,VIP,Electronics,Bluetooth Speaker,2,61.71,164.95,0,completed
+ORD-10388,2025-05-02,East,Marketplace,New,Home,Coffee Maker,5,85.96,574.43,5,completed
+ORD-10361,2025-05-02,North,Marketplace,New,Home,Desk Lamp,1,33.32,44.53,0,completed
+ORD-10357,2025-05-02,West,Mobile App,Returning,Home,Desk Lamp,1,34.02,45.47,20,completed
+ORD-10578,2025-05-03,North,Web,VIP,Electronics,Smartwatch,3,201.35,807.32,0,completed
+ORD-10363,2025-05-03,West,Marketplace,New,Electronics,Smartwatch,5,196.9,1315.79,20,completed
+ORD-10047,2025-05-03,North,Web,New,Home,Coffee Maker,1,88.68,118.52,0,completed
+ORD-10303,2025-05-05,South,Mobile App,New,Home,Air Purifier,3,156.44,627.25,10,completed
+ORD-10827,2025-05-05,South,Web,New,Electronics,Smartwatch,1,188.89,252.45,10,completed
+ORD-10094,2025-05-06,West,Marketplace,Returning,Beauty,Face Serum,3,40.73,163.31,20,completed
+ORD-10739,2025-05-06,North,Web,VIP,Home,Coffee Maker,5,85.99,574.63,0,completed
+ORD-10178,2025-05-07,West,Marketplace,New,Apparel,Wool Sweater,5,63.05,421.33,5,completed
+ORD-11036,2025-05-08,North,Mobile App,Returning,Home,Desk Lamp,5,33.14,221.46,15,completed
+ORD-10219,2025-05-08,East,Web,VIP,Electronics,Bluetooth Speaker,4,56.03,299.54,0,completed
+ORD-10591,2025-05-08,North,Mobile App,New,Home,Coffee Maker,1,84.48,112.91,20,completed
+ORD-10066,2025-05-10,South,Mobile App,Returning,Apparel,Rain Jacket,3,91.34,366.23,0,completed
+ORD-10344,2025-05-10,South,Mobile App,New,Home,Air Purifier,4,145.34,776.99,5,completed
+ORD-11107,2025-05-11,South,Web,Returning,Home,Coffee Maker,5,89.82,600.23,0,completed
+ORD-10201,2025-05-11,West,Web,Returning,Electronics,Smartwatch,1,206.64,276.18,0,completed
+ORD-11153,2025-05-12,East,Web,Returning,Apparel,Wool Sweater,4,67.98,363.42,15,completed
+ORD-10842,2025-05-12,South,Web,Returning,Electronics,Bluetooth Speaker,4,58.88,314.77,20,completed
+ORD-10839,2025-05-13,West,Mobile App,VIP,Beauty,Face Serum,5,39.58,264.49,15,refunded
+ORD-10942,2025-05-14,South,Marketplace,Returning,Home,Desk Lamp,5,32.5,217.18,0,completed
+ORD-10528,2025-05-15,East,Marketplace,Returning,Apparel,Rain Jacket,1,97.44,130.23,5,completed
+ORD-10323,2025-05-16,West,Marketplace,Returning,Home,Coffee Maker,4,90.8,485.42,0,completed
+ORD-10152,2025-05-16,East,Web,Returning,Electronics,Bluetooth Speaker,4,56.23,300.61,0,completed
+ORD-11169,2025-05-16,South,Marketplace,Returning,Apparel,Running Shoes,1,106.58,142.44,0,completed
+ORD-10641,2025-05-16,South,Web,New,Electronics,Wireless Earbuds,3,71.46,286.52,0,completed
+ORD-10803,2025-05-17,North,Web,Returning,Electronics,Bluetooth Speaker,3,54.68,219.24,20,completed
+ORD-10668,2025-05-17,South,Web,VIP,Home,Air Purifier,3,142.59,571.72,15,completed
+ORD-11102,2025-05-17,West,Mobile App,Returning,Home,Coffee Maker,1,87.57,117.04,0,completed
+ORD-10529,2025-05-18,South,Web,New,Beauty,Face Serum,3,40.85,163.79,20,completed
+ORD-10714,2025-05-18,South,Web,New,Electronics,Bluetooth Speaker,3,60.64,243.14,10,completed
+ORD-10968,2025-05-18,North,Mobile App,VIP,Home,Air Purifier,3,143.76,576.41,10,completed
+ORD-11005,2025-05-18,North,Mobile App,VIP,Electronics,Smartwatch,1,184.6,246.72,0,completed
+ORD-11080,2025-05-18,West,Mobile App,VIP,Apparel,Running Shoes,1,105.1,140.47,5,refunded
+ORD-10060,2025-05-19,West,Mobile App,New,Electronics,Smartwatch,1,196.94,263.21,0,cancelled
+ORD-10732,2025-05-19,West,Mobile App,New,Home,Desk Lamp,3,34.51,138.37,15,completed
+ORD-10526,2025-05-20,West,Marketplace,New,Home,Air Purifier,3,136.53,547.42,10,completed
+ORD-10451,2025-05-20,West,Marketplace,New,Electronics,Smartwatch,3,195.79,785.02,5,completed
+ORD-10585,2025-05-20,West,Web,Returning,Apparel,Rain Jacket,5,96.91,647.6,0,completed
+ORD-10576,2025-05-21,South,Mobile App,New,Home,Air Purifier,1,152.43,203.72,10,completed
+ORD-11066,2025-05-21,South,Web,Returning,Apparel,Running Shoes,4,103.64,554.06,10,completed
+ORD-10023,2025-05-21,North,Web,Returning,Home,Coffee Maker,5,87.72,586.19,10,refunded
+ORD-10263,2025-05-21,West,Web,New,Home,Coffee Maker,4,86.47,462.27,5,cancelled
+ORD-10498,2025-05-21,East,Mobile App,New,Beauty,Hair Dryer,1,62.32,83.29,5,completed
+ORD-10861,2025-05-22,North,Web,Returning,Home,Coffee Maker,2,80.48,215.12,0,completed
+ORD-10437,2025-05-22,East,Mobile App,Returning,Home,Coffee Maker,5,84.4,564.01,0,completed
+ORD-10420,2025-05-22,North,Mobile App,VIP,Beauty,Face Serum,2,43.22,115.53,0,completed
+ORD-11181,2025-05-22,East,Mobile App,New,Apparel,Rain Jacket,4,87.32,466.81,10,completed
+ORD-11142,2025-05-24,West,Marketplace,Returning,Electronics,Smartwatch,1,180.1,240.7,0,completed
+ORD-10721,2025-05-24,North,Web,New,Home,Coffee Maker,4,86.97,464.94,0,refunded
+ORD-10692,2025-05-24,South,Mobile App,Returning,Home,Coffee Maker,1,81.33,108.7,20,completed
+ORD-10469,2025-05-25,North,Web,Returning,Home,Air Purifier,3,155.71,624.32,0,completed
+ORD-10490,2025-05-25,South,Marketplace,Returning,Electronics,Bluetooth Speaker,5,58.31,389.66,15,completed
+ORD-10679,2025-05-26,South,Marketplace,Returning,Home,Desk Lamp,3,31.78,127.42,0,completed
+ORD-10408,2025-05-26,North,Web,New,Apparel,Running Shoes,3,107.35,430.42,15,cancelled
+ORD-10763,2025-05-27,North,Mobile App,Returning,Electronics,Bluetooth Speaker,1,55.3,73.91,15,completed
+ORD-10381,2025-05-27,West,Marketplace,VIP,Apparel,Running Shoes,4,113.29,605.65,5,completed
+ORD-10347,2025-05-27,North,Marketplace,Returning,Beauty,Face Serum,5,41.51,277.39,0,completed
+ORD-10753,2025-05-27,West,Web,Returning,Electronics,Smartwatch,4,201.53,1077.38,10,refunded
+ORD-10285,2025-05-27,South,Web,VIP,Home,Coffee Maker,2,88.63,236.91,10,completed
+ORD-10180,2025-05-28,East,Mobile App,New,Electronics,Wireless Earbuds,5,82.2,549.3,0,completed
+ORD-10318,2025-05-28,West,Web,New,Electronics,Wireless Earbuds,5,72.11,481.88,0,completed
+ORD-10080,2025-05-29,North,Web,Returning,Electronics,Bluetooth Speaker,2,55.06,147.18,20,completed
+ORD-10935,2025-05-29,East,Web,VIP,Home,Coffee Maker,3,83.62,335.28,0,completed
+ORD-11108,2025-05-29,North,Mobile App,New,Beauty,Hair Dryer,4,67.42,360.43,5,completed
+ORD-10693,2025-06-01,North,Mobile App,New,Electronics,Wireless Earbuds,2,77.53,212.43,0,completed
+ORD-10925,2025-06-01,North,Web,New,Electronics,Smartwatch,2,195.82,536.55,15,completed
+ORD-10382,2025-06-02,West,Mobile App,New,Apparel,Wool Sweater,4,72.69,398.34,15,cancelled
+ORD-10948,2025-06-02,West,Mobile App,New,Electronics,Smartwatch,5,205.24,1405.89,20,completed
+ORD-10762,2025-06-03,South,Web,VIP,Apparel,Rain Jacket,4,86.76,475.44,20,completed
+ORD-10570,2025-06-03,East,Web,Returning,Home,Coffee Maker,4,90.27,494.68,5,completed
+ORD-10964,2025-06-03,East,Marketplace,New,Apparel,Wool Sweater,2,66.62,182.54,5,completed
+ORD-10639,2025-06-03,North,Web,Returning,Electronics,Wireless Earbuds,3,77.43,318.24,15,completed
+ORD-10775,2025-06-04,South,Marketplace,New,Electronics,Smartwatch,3,193.77,796.39,0,refunded
+ORD-10339,2025-06-05,South,Web,New,Electronics,Smartwatch,5,194.65,1333.35,0,completed
+ORD-10670,2025-06-05,South,Marketplace,Returning,Beauty,Hair Dryer,3,62.01,254.86,0,completed
+ORD-10292,2025-06-05,West,Mobile App,New,Electronics,Smartwatch,1,196.38,269.04,15,completed
+ORD-10447,2025-06-06,North,Web,New,Apparel,Running Shoes,5,111.48,763.64,0,completed
+ORD-10194,2025-06-08,South,Mobile App,Returning,Electronics,Bluetooth Speaker,4,58.83,322.39,0,completed
+ORD-11053,2025-06-08,West,Web,New,Electronics,Wireless Earbuds,4,76.42,418.78,10,completed
+ORD-10514,2025-06-08,East,Web,Returning,Beauty,Face Serum,3,43.59,179.15,0,completed
+ORD-11082,2025-06-08,West,Marketplace,Returning,Apparel,Wool Sweater,5,70.66,484.02,0,refunded
+ORD-10273,2025-06-08,North,Mobile App,New,Home,Coffee Maker,4,89.58,490.9,0,completed
+ORD-10683,2025-06-08,South,Web,New,Apparel,Rain Jacket,5,92.44,633.21,0,completed
+ORD-10648,2025-06-09,North,Web,Returning,Beauty,Hair Dryer,3,60.91,250.34,20,refunded
+ORD-10450,2025-06-09,West,Marketplace,VIP,Apparel,Running Shoes,1,110.42,151.28,15,completed
+ORD-10750,2025-06-09,North,Marketplace,New,Apparel,Rain Jacket,4,86.71,475.17,20,completed
+ORD-10682,2025-06-09,East,Mobile App,New,Home,Air Purifier,2,143.61,393.49,0,completed
+ORD-10199,2025-06-10,West,Mobile App,New,Apparel,Running Shoes,3,114.37,470.06,0,completed
+ORD-10998,2025-06-10,West,Mobile App,Returning,Apparel,Wool Sweater,3,66.57,273.6,0,completed
+ORD-10502,2025-06-10,South,Web,Returning,Apparel,Running Shoes,1,99.01,135.64,0,completed
+ORD-10336,2025-06-10,East,Mobile App,VIP,Beauty,Hair Dryer,3,63.62,261.48,15,completed
+ORD-10852,2025-06-10,East,Web,Returning,Beauty,Face Serum,1,40.11,54.95,15,completed
+ORD-10465,2025-06-12,South,Web,Returning,Beauty,Face Serum,5,42.8,293.18,5,completed
+ORD-10608,2025-06-12,South,Mobile App,New,Electronics,Wireless Earbuds,3,73.46,301.92,0,completed
+ORD-10063,2025-06-13,West,Mobile App,Returning,Electronics,Bluetooth Speaker,4,60.91,333.79,10,completed
+ORD-10796,2025-06-13,North,Mobile App,New,Home,Air Purifier,3,148.6,610.75,5,completed
+ORD-10860,2025-06-13,North,Marketplace,Returning,Apparel,Running Shoes,1,106.75,146.25,0,refunded
+ORD-10045,2025-06-14,North,Web,New,Beauty,Hair Dryer,4,68.01,372.69,0,completed
+ORD-10207,2025-06-14,South,Mobile App,VIP,Electronics,Wireless Earbuds,5,71.84,492.1,10,completed
+ORD-10416,2025-06-14,North,Web,New,Apparel,Running Shoes,4,109.23,598.58,0,completed
+ORD-10354,2025-06-14,North,Web,Returning,Beauty,Hair Dryer,5,63.33,433.81,5,completed
+ORD-10403,2025-06-15,East,Mobile App,Returning,Electronics,Smartwatch,4,206.18,1129.87,20,completed
+ORD-10958,2025-06-15,South,Mobile App,Returning,Apparel,Wool Sweater,3,64.11,263.49,15,completed
+ORD-10440,2025-06-16,North,Web,Returning,Electronics,Wireless Earbuds,2,74.23,203.39,10,completed
+ORD-10946,2025-06-16,West,Marketplace,Returning,Electronics,Smartwatch,3,185.36,761.83,15,completed
+ORD-10011,2025-06-17,South,Mobile App,New,Apparel,Wool Sweater,2,72.34,198.21,10,completed
+ORD-10324,2025-06-17,West,Marketplace,New,Electronics,Smartwatch,1,197.14,270.08,0,completed
+ORD-10593,2025-06-19,West,Marketplace,Returning,Beauty,Face Serum,5,38.35,262.7,0,completed
+ORD-10893,2025-06-20,South,Marketplace,New,Apparel,Running Shoes,2,107.63,294.91,0,completed
+ORD-10850,2025-06-20,North,Marketplace,New,Apparel,Wool Sweater,5,67.45,462.03,0,completed
+ORD-10913,2025-06-20,West,Web,Returning,Apparel,Wool Sweater,4,67.06,367.49,15,completed
+ORD-11197,2025-06-21,South,Web,Returning,Electronics,Wireless Earbuds,5,81.58,558.82,20,completed
+ORD-10140,2025-06-21,North,Marketplace,Returning,Electronics,Wireless Earbuds,4,74.69,409.3,20,completed
+ORD-10554,2025-06-22,West,Web,Returning,Home,Air Purifier,4,140.64,770.71,15,completed
+ORD-10771,2025-06-23,North,Web,Returning,Beauty,Face Serum,4,43.86,240.35,20,completed
+ORD-11087,2025-06-25,East,Mobile App,Returning,Home,Air Purifier,1,147.89,202.61,0,completed
+ORD-10264,2025-06-25,North,Web,Returning,Electronics,Smartwatch,3,189.21,777.65,15,completed
+ORD-11081,2025-06-25,South,Mobile App,Returning,Apparel,Running Shoes,5,103.52,709.11,0,completed
+ORD-10355,2025-06-26,West,Mobile App,Returning,Beauty,Hair Dryer,5,61.97,424.49,20,completed
+ORD-10346,2025-06-26,West,Web,Returning,Apparel,Running Shoes,3,112.13,460.85,10,completed
+ORD-10144,2025-06-26,West,Mobile App,New,Home,Air Purifier,1,152.58,209.03,20,completed
+ORD-11055,2025-06-28,West,Mobile App,Returning,Home,Air Purifier,3,153.09,629.2,5,completed
+ORD-11116,2025-06-28,North,Mobile App,Returning,Electronics,Bluetooth Speaker,2,58.32,159.8,0,completed
+ORD-10510,2025-06-28,West,Marketplace,VIP,Electronics,Wireless Earbuds,5,82.47,564.92,0,completed
+ORD-10160,2025-06-28,North,Marketplace,New,Apparel,Running Shoes,2,115.21,315.68,0,completed
+ORD-10690,2025-06-29,North,Web,New,Home,Air Purifier,3,134.97,554.73,10,completed
+ORD-10400,2025-06-29,East,Web,Returning,Electronics,Wireless Earbuds,3,71.92,295.59,20,completed
+ORD-10809,2025-06-29,South,Marketplace,New,Apparel,Running Shoes,1,112.17,153.67,0,completed
+ORD-10819,2025-06-30,South,Web,New,Beauty,Face Serum,1,43.1,59.05,20,completed
+ORD-11168,2025-06-30,West,Mobile App,VIP,Electronics,Wireless Earbuds,1,77.46,106.12,10,completed

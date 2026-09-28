@@ -1,137 +1,146 @@
 # 📊 Talk to Data
 
-> **Ask plain-English questions about any CSV/Excel file. Get an answer, a chart, and the pandas code that produced it.**
+> **Ask plain-English questions about any spreadsheet. Get an answer, a chart, the table behind it, and the pandas code that produced every number.**
 > Built for the NatWest "Code for Purpose" India Hackathon 2025.
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.32-FF4B4B?logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.2-150458?logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-5.20-3F4F75?logo=plotly&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-frontend-646CFF?logo=vite&logoColor=white)
 ![Groq](https://img.shields.io/badge/LLM-Groq%20(Llama%203.3%2070B)-F55036)
 
 ---
 
 ## Overview
 
-Upload a CSV or Excel file, ask a question in plain English ("why did revenue drop in February?", "compare North vs South", "pie chart of sales by product"), and get back a plain-English answer, a data table, and — where it makes sense — a chart. No SQL, no pandas syntax, no manual filtering.
+Upload a CSV, Excel, JSON or Parquet file, ask a question ("how has monthly revenue trended?", "compare channels by region", "what's total completed revenue?"), and get back a short written answer, an interactive chart, a sortable table and the exact code that ran. You don't need SQL, pandas or any manual filtering.
 
-The core idea: the LLM never touches your data directly. It only ever sees the **schema** (column names, types, a few sample values) and writes **pandas code** against it. That code runs in a sandboxed executor, and the *result* of that code — not the LLM's own words — is what gets summarized back to you. That's the whole trust story: the model reasons about structure, not content, so it can't quietly make numbers up.
+**The trust model:** the LLM never sees your rows. It only sees the **schema**: column names, types, detected roles and a few sample values. From that it writes **pandas code**, which runs in a locked-down sandbox on your real data. The written answer is generated **from the computed result**, not from the model's memory, and every answer shows which rows and columns it came from.
 
-## How a query actually flows
+## What's new in v2
 
-This is the real, current wiring in `src/app.py` — not an aspirational diagram:
+v1 was a single-file Streamlit app. v2 splits it into a **FastAPI backend** and a **React + TypeScript frontend** with hand-written CSS, and upgrades every stage of the pipeline:
+
+| Area | v1 (Streamlit) | v2 |
+|---|---|---|
+| UI | Streamlit widgets with injected CSS | React SPA: light/dark themes, responsive down to phone width, streamed progress steps, chart/table/code tabs, dataset inspector drawer |
+| LLM calls per question | 4: clarify, classify, generate, narrate | 3: **plan** (clarify, classify, rewrite follow-ups and pick a chart in one JSON call), generate, narrate |
+| Follow-ups | Previous user messages pasted into the prompt | Planner rewrites "filter that to North" into a standalone question, and the previous code is passed in for reuse |
+| Failed code | Error shown to the user | **Self-repair loop**: the error goes back to the model for up to 2 fixes. Empty results get one retry to check filter values |
+| Sandbox | Blocked imports, `eval`, `exec`, `open` | Also blocks dunder access (`__class__`/`__subclasses__` escapes), reflection builtins, pandas/numpy file and network I/O (`to_csv`, `read_*`, `np.load`…), `while` loops and `__` strings (closes the `df.query` escape). Adds a wall-clock timeout and runs on a copy of the data |
+| Data loading | `read_csv` / `read_excel` | Encoding fallback, delimiter sniffing, one dataset per Excel sheet, clean headers, text coerced to numbers (`"$1,200"`, `"(300)"`, `"15%"`) and dates |
+| Profiling | Column names, dtypes and samples | Each column gets a role (metric / category / time / ID / text) plus stats, top values and null rate |
+| Semantic layer | One hardcoded rule | Rules built from the data: month-name ordering, excluding cancelled/refunded rows **only when a status column actually contains those values**, and null warnings |
+| Charts | Plotly, chosen by keyword | Chart picked from the data's shape (time → line, small positive breakdown → donut, two numeric columns → scatter), with chronological month sorting, top-30 capping and a colorblind-validated palette. You can switch chart type in the UI |
+| Citations / validation | Written but never called | Wired in: every answer shows rows scanned, columns used and source files. Truncation and self-correction are flagged |
+| Single-number answers | Shown as a markdown table | **Stat tile** with a compact value (304.3K), the exact value and a label built from the code ("Total revenue") |
+| Persistence | Lost on refresh | SQLite: a data library shared across chats, conversations, and every message with its results |
+| Multi-file | Keyword "merge" only | **Auto / Per file / Merge** toggle. Merge adds a `source_file` column so you can compare across files |
+| Tests | None | 31 pytest tests (sandbox escapes, loaders, chart choice, end-to-end API with a scripted LLM) + CI |
+
+## Architecture
 
 ```mermaid
 flowchart TD
-    U["User uploads CSV/Excel"] --> LOAD["data/loader.py + profiler.py
-    → schema, dtypes, null counts, sample values"]
-    LOAD --> Q["User asks a question"]
-    Q --> CLAR{"chat/clarifier.py
-    Is the question answerable
-    with a reasonable assumption?"}
-    CLAR -- "too vague" --> ASK["Ask a 1-sentence
-    clarifying question"]
-    CLAR -- "clear enough" --> INTENT["router/intent.py
-    LLM classifies: change_analysis /
-    comparison / breakdown / summary"]
-    INTENT --> SEM["semantics/layers.py
-    baseline column + business-rule context"]
-    SEM --> GEN["engine/generator.py
-    LLM writes pandas-only code,
-    constrained to real column names"]
-    GEN --> EXEC["engine/executor.py
-    AST-parsed sandbox: blocks imports,
-    eval/exec/open/compile, only pd/np/math in scope"]
-    EXEC --> FMT["response/formatter.py
-    LLM narrates the RESULT (not the question)
-    + response/charts.py picks a Plotly chart"]
-    FMT --> U
+    UI["React SPA (Vite + TS)"] -- "REST + SSE stream" --> API["FastAPI (backend/app/main.py)"]
+    API --> STORE[("SQLite + uploads<br/>store.py")]
+    API --> PIPE["pipeline.run_turn()"]
+    PIPE --> PLAN["plan: 1 LLM call → analyze / clarify / respond,<br/>standalone question, intent, chart hint"]
+    PLAN -->|analyze| GEN["generate pandas code (LLM)<br/>schema + semantic rules + prior code"]
+    GEN --> SBX["sandbox.run(): AST vetting, restricted builtins,<br/>timeout, copy of df"]
+    SBX -- "error / empty" --> REPAIR["self-repair (LLM, ≤2×)"] --> SBX
+    SBX --> RES["results.py: normalise → table / scalar,<br/>pick chart, cite columns"]
+    RES --> NAR["narrate from the RESULT (LLM)<br/>+ 3 follow-up suggestions"]
+    NAR --> API
 ```
 
-**Multi-file sessions:** upload more than one file into a chat and, by default, every question gets answered **against each file independently** (results shown side by side). Say "merge" or "combine" and it concatenates the files into one dataframe and answers against that instead.
+Progress events (`plan → code → run → repair → explain`) stream to the browser as Server-Sent Events, so the UI shows what's happening in real time.
 
-## What's actually built vs. scaffolded
+## Quick start
 
-Being direct about this because the repo contains a few modules from the original hackathon plan that were scaffolded but never wired into the live request path — worth knowing before anyone reads the code expecting them to fire on every query:
-
-| Module | Status |
-|---|---|
-| Schema-constrained code generation, AST-sandboxed execution, ambiguity clarifier, per-file/merge multi-file logic, LLM narrative + Plotly charts | ✅ **Live** — this is the real path every query takes |
-| `guard/citation.py` (source/row-count footer), `guard/validator.py` (result sanity checks), `chat/history.py` (generic history helper) | 🚧 **Scaffolded, not called from `app.py`** — `app.py` does its own inline session-state history management instead, and no citation footer or post-execution validation currently reaches the UI |
-| `semantics/layers.py` | ⚠️ **Real but minimal** — currently returns the column list plus one hardcoded rule (exclude cancelled/failed rows if that column exists), not a full per-dataset metric dictionary yet |
-
-## Setup
+**Prerequisites:** Python 3.11+, Node 20+, and a free [Groq API key](https://console.groq.com).
 
 ```bash
 git clone https://github.com/Nitingupta0/talk-to-data.git
 cd talk-to-data
+cp .env.example .env            # paste your GROQ_API_KEY
 
-python -m venv .venv
-.venv\Scripts\activate        # Windows — use `source .venv/bin/activate` on macOS/Linux
+# 1) Backend: http://localhost:8000 (API docs at /docs)
+cd backend
+python -m venv .venv && source .venv/bin/activate    # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8000
 
-cp .env.example .env          # then paste in your own GROQ_API_KEY (https://console.groq.com)
-
-streamlit run src/app.py      # opens at http://localhost:8501
+# 2) Frontend: http://localhost:5173 (proxies /api to :8000)
+cd ../frontend
+npm install
+npm run dev
 ```
+
+**Single-process mode:** run `npm run build` in `frontend/` and FastAPI will serve the built app from `frontend/dist`. Then `uvicorn app.main:app` on its own serves everything at http://localhost:8000.
+
+Without an API key you can still upload files and browse them in the inspector. Questions return a clear "no model configured" message.
 
 ## Using it
 
-1. **Upload** one or more CSV/Excel files from the sidebar — each gets auto-profiled and the app greets you with 3 suggested questions based on its actual columns.
-2. **Ask** in plain English. A few examples that map cleanly onto the four intent types: "why did revenue drop in February?" (change analysis), "compare North vs South region" (comparison), "what makes up total sales?" (breakdown), "give me a summary of this dataset" (summary). Mention "pie chart" / "line chart" / "bar chart" / etc. in the question to steer the visualization.
-3. **Multi-file:** load a second file and ask a question — you'll get an answer per file by default; say "combine" to treat them as one dataset.
-4. **Manage chats** from the sidebar — new chat, rename, delete. Each chat keeps its own file selection and history.
+1. **Add data:** drop files on the start screen, pick a bundled sample (`ecommerce_orders.csv` has 1,200 orders across 18 months, and `sales_data.csv` is a small monthly table), or reuse a file from your **data library** in the sidebar. Each file is profiled and greeted with four suggested questions.
+2. **Ask:** type in the composer (Enter sends, Shift+Enter adds a new line) or click a suggestion. Name a chart type ("as a donut", "line chart") to steer the visual, or switch it afterwards with the Bar / Line / Area / Donut toggle.
+3. **Verify:** open **Table** to sort and download the result as CSV, or **Code** to see the exact pandas that ran. The footer lists rows scanned and the columns used.
+4. **Inspect a dataset:** click its chip in the top bar to see each column's role, stats, top values, a 100-row preview, and the business rules the assistant will apply.
+5. **Multiple files:** attach several and choose **Per file** (side-by-side answers in tabs), **Merge** (one stacked table with a `source_file` column), or **Auto** (per file unless you say "combine").
 
-## Tech stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | Streamlit |
-| LLM | Groq API — `llama-3.3-70b-versatile` (used for intent routing, code generation, ambiguity checks, and result narration — 4 distinct calls per query) |
-| Data processing | Pandas, NumPy |
-| Visualization | Plotly |
-| Sandboxing | Python `ast` module — parses generated code and rejects any import or call to `eval`/`exec`/`open`/`compile`/`__import__` before it ever runs |
-
-## Folder structure
+## Project layout
 
 ```
 talk-to-data/
-├── src/
-│   ├── app.py                  # Streamlit UI + orchestration (the real control flow lives here)
-│   ├── data/
-│   │   ├── loader.py           # CSV/Excel ingestion
-│   │   └── profiler.py         # Schema, dtypes, null counts, sample values
-│   ├── router/intent.py        # LLM query-intent classification
-│   ├── semantics/layers.py     # Baseline column + business-rule context
-│   ├── engine/
-│   │   ├── generator.py        # LLM → pandas-only code
-│   │   ├── executor.py         # AST-checked sandboxed execution
-│   │   └── templates.py        # Per-intent prompt templates
-│   ├── response/
-│   │   ├── formatter.py        # LLM narrates the result + packages table/chart
-│   │   └── charts.py           # Plotly chart-type routing
-│   ├── chat/clarifier.py       # Ambiguity detection before execution
-│   └── guard/                  # citation.py, validator.py — scaffolded, not yet wired in (see above)
-├── sample_data/sales_data.csv  # Demo dataset
-├── requirements.txt
-└── .env.example
+├── backend/
+│   ├── app/
+│   │   ├── main.py        # FastAPI routes, SSE streaming, serves frontend/dist
+│   │   ├── pipeline.py    # plan → generate → sandbox → repair → narrate
+│   │   ├── prompts.py     # every prompt in one place
+│   │   ├── sandbox.py     # AST-vetted, time-limited code execution
+│   │   ├── results.py     # result normalisation, chart selection, citations
+│   │   ├── data.py        # loading, cleaning, type coercion, profiling
+│   │   ├── semantics.py   # derived business rules + schema prompt block
+│   │   ├── store.py       # SQLite persistence + dataframe cache
+│   │   ├── llm.py         # provider wrapper (Groq), swappable for tests
+│   │   └── config.py      # env-driven settings
+│   ├── sample_data/
+│   ├── tests/             # pytest suite with a scripted fake LLM
+│   └── requirements.txt
+├── frontend/
+│   ├── src/
+│   │   ├── App.tsx        # state + layout
+│   │   ├── api.ts         # typed REST client + SSE reader
+│   │   ├── components/    # Sidebar, Composer, MessageView, ResultCard, ChartView, DataTable, Inspector, …
+│   │   ├── styles.css     # design tokens (light/dark) + all component styles
+│   │   └── theme.ts       # theme hook + chart palette
+│   └── vite.config.ts
+└── .github/workflows/ci.yml
 ```
 
-## Limitations
+## API
 
-- Best with structured CSV/Excel files that have clear column headers
-- Chart generation needs at least 2 result columns
-- Groq's free tier has a daily token cap — heavy use will hit it
-- No automatic retry if the LLM's generated code fails execution — the error is surfaced to the user, not retried automatically
+| Method | Path | Purpose |
+|---|---|---|
+| `GET` | `/api/health` | Status and whether an LLM key is configured |
+| `GET/POST` | `/api/datasets` | List or upload (multipart `files`) datasets |
+| `GET/DELETE` | `/api/datasets/{id}` | Profile + preview rows / delete |
+| `GET` | `/api/samples` · `POST /api/samples/{name}` | Bundled sample files |
+| `GET/POST` | `/api/chats` | List / create conversations |
+| `GET/PATCH/DELETE` | `/api/chats/{id}` | Read with messages / rename or set mode / delete |
+| `PUT` | `/api/chats/{id}/datasets` | Set attached datasets (adds a welcome message per new file) |
+| `POST` | `/api/chats/{id}/messages` | Ask a question. Responds with a `text/event-stream` of status events and the final message |
 
-## Roadmap
+Interactive docs: http://localhost:8000/docs.
 
-- Wire `guard/citation.py` and `guard/validator.py` into the live response path (source-citation footer + post-execution sanity checks)
-- A real per-dataset semantic layer (editable metric definitions), not just the current baseline
-- PDF / Google Sheets as data sources
-- Natural-language alerts ("notify me when sales drop below X")
-- Export a chat session as a PDF report
+## Development
 
----
+```bash
+cd backend && pip install -r requirements-dev.txt && pytest -q   # backend tests
+cd frontend && npm run build                                      # typecheck + production build
+```
 
-> Built for the NatWest "Code for Purpose" — India Hackathon 2025.
+## Security notes
+
+The sandbox is designed for a local or trusted-team tool. It blocks the known escape routes from generated pandas code (imports, dunder traversal, reflection, file and network I/O, string-eval paths) and stops waiting after a timeout. The timed-out thread is abandoned, not killed, so a runaway query can keep using CPU until it finishes. It is **not** a hardened multi-tenant isolation boundary. If you expose this publicly, run the backend in a container with no credentials, a read-only filesystem and no outbound network.
